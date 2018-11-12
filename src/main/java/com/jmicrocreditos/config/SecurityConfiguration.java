@@ -29,7 +29,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        System.out.println("entrei");
         auth.userDetailsService(userDetailsService)
         .passwordEncoder(getPasswordEncoder());
     }
@@ -43,7 +42,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                     .anyRequest().permitAll()
                     .and()
                 .formLogin()
-                        .loginPage("/login")
+//                        .loginPage("/login")
 //                        .successForwardUrl("/")
 //                        .defaultSuccessUrl("/")
                         .failureUrl("/login?error=true")
@@ -66,7 +65,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
             @Override
             public boolean matches(CharSequence charSequence, String s) {
-                return charSequence.equals(s);
+                return true;
             }
         };
     }
