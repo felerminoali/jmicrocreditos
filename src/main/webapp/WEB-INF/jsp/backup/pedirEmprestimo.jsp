@@ -5,6 +5,9 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+
 <!DOCTYPE html>
 <html lang="pt">
 
@@ -58,7 +61,7 @@
                 <div class="wrap-login100">
                     <div class="login100-form-title" style="background-image: url(images/emprestimo.jpg);">
                         <span class="login100-form-title-1">
-                            Formulário de Pedido de Empréstimos
+                            Formulário de Pedido de Empréstimos ${provincia.descricao}
                         </span>
                     </div>
 

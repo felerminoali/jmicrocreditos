@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <title>Users</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--===============================================================================================-->
+        <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="css/util.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!--===============================================================================================-->
+
+        <script>
+            function validarCadastro{
+
+                if (document.formulario.cSenha.value !== document.formulario.senha.value) {
+                    alert("Senhas diferentes, Tente novamente");
+                    document.formulario.confSenha.focus();
+                            return false;
+                }
+            }
+        </script>
+
+    </head>
+
+    <body>
+
+        <div class="limiter">
+            <div class="container-login100">
+                <div class="wrap-login100">
+                    <div class="login100-form-title" style="background-image: url(images/cadastro.jpg);">
+                        <span class="login100-form-title-1">
+                            Formulário de Cadastro de Utilizador
+                        </span>
+                    </div>
+
+                    <form class="login100-form validate-form" name="formulario" method="POST" action="" onSubmit="return validarCadastro()"
+                          style="color: black;">
+
+                        <div class="wrap-input100 validate-input m-b-26" data-validate="O Campo Nome  e Obrigatório, Insira!">
+                            <span class="label-input100">
+                                <label for="nome">Nome:</label>
+                            </span>
+                            <input class="input100" type="text" name="nome" value=""  id="nome" placeholder="Insira o Nome" autocomplete="off">
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input m-b-26" data-validate="O Campo Apelido e Obrigatório, Insira!">
+                            <span class="label-input100">
+                                <label for="apelido">Apelido:</label>
+                            </span>
+                            <input class="input100" type="text" id="apelido" value=""  name="apelido" placeholder="Insira o Apelido " autocomplete="off">
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input m-b-26" data-validate="O Campo Data de Nascimento  e Obrigatório, Insira!">
+                            <span class="label-input100">
+                                <label for="email">Email:</label>
+                            </span>
+                            <input class="input100" value="" type="email" id="email" name="email" >
+                            <span class="focus-input100"></span>
+                        </div>
+
+
+                        <div class="wrap-input100 validate-input m-b-26" data-validate="O Campo username é obrigatório, Insira!">
+                            <span class="label-input100">
+                                <label for="username">Username:</label>
+                            </span>
+                            <input class="input100" value="" type="text" id="username" name="username" >
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input m-b-26" data-validate="O Campo Palavra Passe e Obrigatório, Insira!">
+                            <span class="label-input100">
+                                <label for="senha">Palavra Passe </label>
+                            </span>
+                            <input class="input100" type="password" value="" id="senha" name="senha" placeholder="Insira  Palavra Passe" autocomplete="off">
+                            <span class="focus-input100"></span>
+                        </div>
+
+						<div class="wrap-input100 validate-input m-b-18" data-validate="O Campo previlegio é Obrigatório, Insira!">
+
+                            <span class="label-input100" style="height: 50px;">
+
+                                <label for="sexo">Previlegio:</label>
+
+                            </span>
+
+                            <select class="input100" name="sexo" id="sexo" style="border-radius: 5px;height: 40px;">
+                                
+                                <option value="1"> 
+									Cliente
+                                </option>
+								<option value="2"> 
+									Administrator
+                                </option>
+
+                                <option value="3">
+                                   Utilizador
+                                </option>
+                              
+                            </select>
+                            <br>
+
+                        </div>
+
+
+                        <div class="container-login100-form-btn">
+                            <button class="login100-form-btn" type="submit" onclick="return validarCadastro()">
+
+                                Cadastrar
+                                <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                            </button>&nbsp;&nbsp;
+
+                            <button class="login100-form-btn" style="background-color: darkred;" type="reset">
+                                Limpar
+                            </button>
+                        </div>
+
+                        <div style="margin-top: 20px;font-size: 14px;">
+                            Voltar a Página Inicial?
+                            <a href="Admin.html" class="txt2">
+                                Página Inicial.
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--===============================================================================================-->
+        <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/animsition/js/animsition.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/bootstrap/js/popper.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/select2/select2.min.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/daterangepicker/moment.min.js"></script>
+        <script src="vendor/daterangepicker/daterangepicker.js"></script>
+        <!--===============================================================================================-->
+        <script src="vendor/countdowntime/countdowntime.js"></script>
+        <!--===============================================================================================-->
+        <script src="js/main1.js"></script>
+
+    </body>
+
+</html>
