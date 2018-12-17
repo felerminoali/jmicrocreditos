@@ -19,8 +19,8 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/as-pie-progress/css/progress.min.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/gallery/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
@@ -43,33 +43,98 @@
         <div class="menu-logo">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="https://mobirise.co">
+                    <a href="index.html">
                         <img src="assets/images/logotipo05-122x148.png" alt="Mobirise" title="" style="height: 3.8rem;">
                     </a>
                 </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="https://mobirise.co">MICRÓCREDITOS, E.I</a></span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="index.html">MICRÓCREDITOS, E.I</a></span>
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
             <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
-                    <a class="nav-link link text-black display-4" href="https://mobirise.co">
-                        Serviços</a>
+                    <a class="nav-link link text-black display-7" href="index.html">HOME</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link link text-black display-4" href="https://mobirise.co">Linhas de Créditos</a>
-                </li><li class="nav-item"><a class="nav-link link text-black display-4" href="https://mobirise.co">Contactos</a></li></ul>
-            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-secondary display-7" href="tel:+1-234-567-8901">Sobre nós
-                    </a></div>
+                    <a class="nav-link link text-black display-7" href="index.html#features6-18">QUEM SOMOS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link link text-black dropdown-toggle display-7"
+                                                      href="index.html#testimonials5-10" data-toggle="dropdown-submenu" aria-expanded="false">SERVIÇOS</a><div class="dropdown-menu"><a class="text-black dropdown-item display-7" href="index.html#info1-15">Linhas de Crédito</a>
+                    <a class="text-black dropdown-item display-7" href="index.html#header1-1">Oportunidades</a>
+                    <a class="text-black dropdown-item display-7"
+                                                                                                                                                                                                                                                                                                                                                                                 href="index.html#features18-1o">Requisitos de Crédito</a></div></li><li class="nav-item"><a class="nav-link link text-black display-7" href="index.html#gallery1-1a">EVENTOS</a></li><li class="nav-item"><a class="nav-link link text-black display-7" href="index.html#footer1-b">CONTACTOS</a></li></ul>
+            <div class="navbar-buttons mbr-section-btn">
+                <a class="btn btn-sm btn-primary display-7" href="/login "><span class="mbri-user mbr-iconfont mbr-iconfont-btn">
+            </span>Login</a></div>
         </div>
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/q">responsive web templates</a></section><section class="carousel slide cid-rbHPgcF6ev" data-interval="false" id="slider1-5">
+<section class="engine"><a href="https://">Free HTML5 </a></section><section class="carousel slide cid-rbVtlNA7dJ" data-interval="false" id="slider1-1e">
 
-    
+    <div class="full-screen"><div class="mbr-slider slide carousel" data-pause="true" data-keyboard="false" data-ride="false" data-interval="false"><ol class="carousel-indicators"><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="0"></li><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="2"></li><li data-app-prevent-settings="" data-target="#slider1-1e" class=" active" data-slide-to="3"></li><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="4"></li><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="5"></li></ol><div class="carousel-inner" role="listbox"><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/bg1-2000x1333.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/bg1-2000x1333.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1">MICROCRÉDITOS</h2><p class="lead mbr-text mbr-fonts-style display-5">O sistema de microcrédito é uma linha que concede empréstimos de baixo valor e a taxas menores de juros a pequenos empreendedores, comerciantes e funcionários do estado.</p><div class="mbr-section-btn" buttons="0"><a class="btn display-4 btn-primary" href="index.html#form1-l"><span class="mbri-cash mbr-iconfont mbr-iconfont-btn"></span>Pedir Dinheiro</a> </div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/bguser-2000x1333.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/bguser-2000x1333.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1">Linhas de Créditos</h2><p class="lead mbr-text mbr-fonts-style display-5">Créditos para funcionários, comerciantes, empreendedores e o público em geral.</p><div class="mbr-section-btn" buttons="0"><a class="btn btn-primary display-4" href="index.html#pricing-tables2-v">LER MAIS</a> <a class="btn  btn-white-outline display-4" href="index.html#form1-l">CADASTRAR - SE</a></div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/mbr-1920x1080.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/mbr-1920x1080.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-2">SOLUÇÕES DO NOSSO CRÉDITO</h2><p class="lead mbr-text mbr-fonts-style display-5">Negócios, Investimentos, Consumo, Construção e outros fins.</p><div class="mbr-section-btn" buttons="0"> <a class="btn  display-4 btn-black" href="index.html#features18-1o"><span class="mbri-file mbr-iconfont mbr-iconfont-btn"></span>Ler Mais</a></div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image active" data-bg-video-slide="false" style="background-image: url(assets/images/mbr-6-1920x1280.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/mbr-6-1920x1280.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-2">COMO ADIQUIRIR DINHEIRO</h2><p class="lead mbr-text mbr-fonts-style display-5">Os pedidos de empreestimos são destinados a funcionarios público e ou empresas com comparticipação do estado, pequenas e médias empresas,&nbsp;</p></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/blog-post-1280x720.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/blog-post-1280x720.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-2">NOSSAS SOLUÇÕES E OPORTUNIDADES</h2><p class="lead mbr-text mbr-fonts-style display-5">Oferecemos emprestimos monetários a seu favor, compartilhamos consigo na realização dos seus sonhos e obstaculos da vida.</p><div class="mbr-section-btn" buttons="0"><a class="btn display-4 btn-warning" href="index.html#form1-l"><span class="mbri-cash mbr-iconfont mbr-iconfont-btn"></span>Pedir Dinheiro</a> </div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/blog2-800x450.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/blog2-800x450.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1">Estrangelal Jamal Microcreditos, E.I</h2><p class="lead mbr-text mbr-fonts-style display-5">Somos uma empresa engajada no emprestimo de dinheiro à pessoas singulares e empresas.</p><div class="mbr-section-btn" buttons="0"> <a class="btn  btn-white-outline display-4" href="index.html#header1-1">PEDIR DINHEIRO</a></div></div></div></div></div></div></div><a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#slider1-1e"><span aria-hidden="true" class="mbri-left mbr-iconfont"></span><span class="sr-only">Previous</span></a><a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next" href="#slider1-1e">
+        <span aria-hidden="true" class="mbri-right mbr-iconfont"></span><span class="sr-only">Next</span></a></div></div>
 
-    <div class="full-screen"><div class="mbr-slider slide carousel" data-pause="true" data-keyboard="false" data-ride="false" data-interval="false"><ol class="carousel-indicators"><li data-app-prevent-settings="" data-target="#slider1-5" data-slide-to="0"></li><li data-app-prevent-settings="" data-target="#slider1-5" class=" active" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#slider1-5" data-slide-to="2"></li></ol><div class="carousel-inner" role="listbox"><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/emprestimo-2000x1252.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/emprestimo-2000x1252.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-2">ESTRANGELAL MICROCRÉDITOS, E.I</h2><p class="lead mbr-text mbr-fonts-style display-5">Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.</p><div class="mbr-section-btn" buttons="0"><a class="btn btn-success display-4" href="https://mobirise.com">PEDIR DINHEIRO</a> <a class="btn  btn-white-outline display-4" href="https://mobirise.com">CONTACTE NOS</a></div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image active" data-bg-video-slide="false" style="background-image: url(assets/images/cerca-2000x1334.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/cerca-2000x1334.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-left"><h2 class="mbr-fonts-style display-2">OBTENHA DINHEIRO AGORA</h2><p class="lead mbr-text mbr-fonts-style display-5">Slide with youtube video background and color overlay. Title and text are aligned to the left.</p></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/bg1-2000x1333.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/bg1-2000x1333.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-right"><h2 class="mbr-fonts-style display-1">APLICAR DINHEIRO</h2><p class="lead mbr-text mbr-fonts-style display-5">Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.</p><div class="mbr-section-btn" buttons="0"><a class="btn display-4 btn-primary" href="https://mobirise.com">PEDIR DINHEIRO</a> <a class="btn  btn-white-outline display-4" href="https://mobirise.com">CONTACTE NOS</a></div></div></div></div></div></div></div><a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#slider1-5"><span aria-hidden="true" class="mbri-left mbr-iconfont"></span><span class="sr-only">Previous</span></a><a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next" href="#slider1-5"><span aria-hidden="true" class="mbri-right mbr-iconfont"></span><span class="sr-only">Next</span></a></div></div>
+</section>
 
+<section class="mbr-section info2 cid-rbTPvKvefJ" id="info2-16">
+
+    <div class="container">
+        <div class="row main justify-content-center">
+            <div class="media-container-column col-12 col-lg-3 col-md-4">
+                <div class="mbr-section-btn align-left py-4"><a class="btn btn-secondary-outline display-4" href="index.html#form1-l">PEDIR DINHEIRO</a></div>
+            </div>
+            <div class="media-container-column title col-12 col-lg-7 col-md-6">
+                <h2 class="align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-5">
+                    ENTRANGELAL JAMAL MICROCRÉDITOS, E.I</h2>
+                <h3 class="mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style display-4">O microcrédito é caracterizado pela simplicidade e agilidade na análise, aprovação e liberação do dinheiro. Os financiamentos são concedidos pelos grupos especificos.</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features6 cid-rbTPHTtJiw mbr-parallax-background" id="features6-18">
+    <div class="container">
+        <div class="media-container-row">
+
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-img pb-3">
+                    <span class="mbr-iconfont mbri-users" style="color: rgb(37, 178, 89); fill: rgb(37, 178, 89);"></span>
+                </div>
+                <div class="card-box">
+                    <h4 class="card-title py-3 mbr-fonts-style display-7">
+                        QUEM SOMOS ?</h4>
+                    <p class="mbr-text mbr-fonts-style display-7">Uma empresa engajada num ambiente apropriado para dar resposta eficiente no sistema de créditos a nivel local.<br><br></p>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-img pb-3">
+                    <span class="mbr-iconfont mbri-cash" style="color: rgb(37, 170, 178); fill: rgb(37, 170, 178);"></span>
+                </div>
+                <div class="card-box">
+                    <h4 class="card-title py-3 mbr-fonts-style display-7">
+                        O QUE FAZEMOS?</h4>
+                    <p class="mbr-text mbr-fonts-style display-7">Emprestamos dinheiro aos funcionarios do estados, pessoas que desejam investir em seus negócios e com necessidades rápidas para adiquirir dinheiro.</p>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-img pb-3">
+                    <span class="mbr-iconfont mbri-responsive" style="color: rgb(249, 94, 15); fill: rgb(249, 94, 15);"></span>
+                </div>
+                <div class="card-box">
+                    <h4 class="card-title py-3 mbr-fonts-style display-7">
+                        PERPECTIVAS E DESAFIOS</h4>
+                    <p class="mbr-text mbr-fonts-style display-7">
+                       Tornar o nosso sistema de crédito uma solução electronica na qual os clientes possam aceder os serviços independemente da localização graças as tecnologias.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="mbr-section article content11 cid-rbHPwNbUIr" id="content11-6">
@@ -79,278 +144,133 @@
         <div class="media-container-row">
             <div class="mbr-text counter-container col-12 col-md-8 mbr-fonts-style display-7">
                 <ol>
-                    <li><strong>MOBILE FRIENDLY</strong> - no special actions required, all sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site, it will adapt automagically. <a href="https://mobirise.co/">Try it now!</a></li>
-                    <li><strong>EASY AND SIMPLE</strong> - cut down the development time with drag-and-drop website builder. Drop the blocks into the page, edit content inline and publish - no technical skills required. <a href="https://mobirise.co/">Try it now!</a></li>
-                    <li><strong>UNIQUE STYLES</strong> - choose from the large selection of latest pre-made blocks - full-screen intro, bootstrap carousel, content slider, responsive image gallery with lightbox, parallax scrolling, video backgrounds, hamburger menu, sticky header and more. <a href="https://mobirise.co/">Try it now!</a></li>
+                    <li><strong>MISSÃO</strong>&nbsp;- Garantir qualidade nos serviços prestados nas variadas linhas de créditos oferecidos pela empresa.</li>
+                    <li><strong>VISÃO</strong>- Ser referêrencia no cumprimento integral e moral na resolução das dificuldades financeiras a todos interessados no sistema de crédito.</li>
+                    <li><strong>VALORES</strong>- Satisfação total dos clientes, Contribuir para o bem estar social, <strong>QUALIDADE</strong> e <strong>RAPIDEZ</strong>.</li>
                 </ol>
             </div>
         </div>
     </div>
 </section>
 
-<section class="features10 cid-rbHTs7YlD9" id="features10-j">
+<section class="mbr-section info1 cid-rbTOfkBtKD" id="info1-15">
 
     
 
-    
+    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(239, 239, 239);">
+    </div>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="media mb-3">
-                    <div class="card-img align-self-center">
-                        <span class="mbri-bootstrap mbr-iconfont"></span>
-                    </div>
-                    <h4 class="card-title media-body py-3 mbr-fonts-style display-7">MISSÃO</h4>
-                </div>
-                <div class="card-box">
-                    <p class="mbr-text mbr-fonts-style display-7">
-                       Mobirise is an easy website builder - just drop site elements to your page, add content and style it to look the way you like. <a href="https://mobirise.co">Learn more...</a>
-                    </p>
-                </div>
+        <div class="row justify-content-center content-row">
+            <div class="media-container-column title col-12 col-lg-7 col-md-6">
+                
+                <h2 class="align-left mbr-bold mbr-fonts-style display-5">
+                    PRINCIPAIS LINHAS DE CRÉDITO</h2>
             </div>
-
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="media mb-3">
-                    <div class="card-img align-self-center">
-                        <span class="mbri-touch mbr-iconfont"></span>
-                    </div>
-                    <h4 class="card-title media-body py-3 mbr-fonts-style display-7">
-                        VISÃO</h4>
-                </div>
-                <div class="card-box">
-                    <p class="mbr-text mbr-fonts-style display-7">
-                       All sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site. <a href="https://mobirise.co">Learn more...</a>
-                    </p>
-                </div>
+            <div class="media-container-column col-12 col-lg-3 col-md-4">
+                <div class="mbr-section-btn align-right py-4"><a class="btn btn-primary display-4" href="index.html#form1-l">CADASTRAR -SE</a></div>
             </div>
-
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
-                <div class="media mb-3">
-                    <div class="card-img align-self-center">
-                        <span class="mbri-responsive mbr-iconfont"></span>
-                    </div>
-                    <h4 class="card-title media-body py-3 mbr-fonts-style display-7">
-                        VALORES</h4>
-                </div>
-                <div class="card-box">
-                    <p class="mbr-text mbr-fonts-style display-7">
-                       Mobirise offers many site blocks in several themes, and though these blocks are pre-made, they are flexible. <a href="https://mobirise.co">Learn more...</a>
-                    </p>
-                </div>
-            </div>
-
-            
         </div>
     </div>
-</section>
-
-<section class="mbr-section article content9 cid-rbHXtfPAOf" id="content9-x">
-    
-     
-
-    <div class="container">
-        <div class="inner-container" style="width: 91%;">
-            <hr class="line" style="width: 27%;">
-            <div class="section-text align-center mbr-fonts-style display-5">
-                    PRINCIPAIS LINHAS DE CRÉDITOS</div>
-            <hr class="line" style="width: 27%;">
-        </div>
-        </div>
 </section>
 
 <section class="cid-rbHX5k5Mm7" id="pricing-tables2-v">
-
-    
-
-    
-
     <div class="container">
         <div class="media-container-row">
 
-            <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-4">
+            <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-3">
                 <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-5">
-                        FUNCIONÁRIOS</h3>
+                    <h3 class="plan-title mbr-fonts-style display-5">CRÉDITO AO CONSUMO</h3>
                     <div class="plan-price">
-                        <span class="price-value mbr-fonts-style display-5">
-                            $
-                        </span>
+                        <span class="price-value mbr-fonts-style display-5">&nbsp;</span>
                         <span class="price-figure mbr-fonts-style display-1">
-                            35</span>
-                        <small class="price-term mbr-fonts-style display-7">
-                            per month
-                        </small>
+                            60</span>
+                        <small class="price-term mbr-fonts-style display-7">Dias máximo&nbsp;</small>
                     </div>
                 </div>
                 <div class="plan-body">
                     <div class="plan-list align-center">
                         <ul class="list-group list-group-flush mbr-fonts-style display-7">
+                            <li class="list-group-item"><strong>GRUPO ALVO</strong></li>
                             <li class="list-group-item">
-                                Mobirise is perfect for non-techies who are not familiar with web development.
-                            </li>
-                            <li class="list-group-item">
-                                5 GB Bandwidth</li><br><br><li class="list-group-item"><br>
-                            </li>
+                                Funcionários do Estado</li><li class="list-group-item">Reformados do Estado</li><li class="list-group-item">Antigos Combatentes</li><li class="list-group-item">Funcionarios das Empresas com participação do Estado</li>
                         </ul>
                     </div>
-                    <div class="mbr-section-btn text-center py-4 pb-5">
-                        <a href="https://mobirise.cokk" class="btn btn-primary display-4">BUY NOW</a>
-                    </div>
+                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="index.html#features18-1o" class="btn btn-primary-outline display-4">REQUISITOS</a></div>
                 </div>
             </div>
 
-            <div class="plan col-12 mx-2 my-2 justify-content-center favorite col-lg-4">
+            <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-3">
                 <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-5">
-                        NEGÓCIOS</h3>
+                    <h3 class="plan-title mbr-fonts-style display-5">CRÉDITO NEGÓCIO</h3>
                     <div class="plan-price">
-                        <span class="price-value mbr-fonts-style display-5">
-                            $
-                        </span>
-                        <span class="price-figure mbr-fonts-style display-1">
-                            65</span>
-                        <small class="price-term mbr-fonts-style display-7">
-                            per day
-                        </small>
+                        <span class="price-value mbr-fonts-style display-5">&nbsp;</span>
+                        <span class="price-figure mbr-fonts-style display-1">120</span>
+                        <small class="price-term mbr-fonts-style display-7">Dias máximo</small>
                     </div>
                 </div>
                 <div class="plan-body">
                     <div class="plan-list align-center">
                         <ul class="list-group list-group-flush mbr-fonts-style display-7">
+                            <li class="list-group-item"><strong>
+                                GRUPO ALVO</strong></li>
+                            <li class="list-group-item">Vendedores do Mercado</li>
                             <li class="list-group-item">
-                                Mobirise is perfect for non-techies who are not familiar with web development.
-                            </li>
-                            <li class="list-group-item">
-                                10 GB Bandwidth
-                            </li>
-                            <li class="list-group-item">
-                                Free Domain</li><br><li class="list-group-item">
+                                Pequenos Comerciantes</li><li class="list-group-item">Negociantes</li><li class="list-group-item">Empreendedores</li><li class="list-group-item"><br>
                             </li>
                         </ul>
                     </div>
-                    <div class="mbr-section-btn text-center py-4 pb-5">
-                        <a href="https://mobirise.co" class="btn btn-primary display-4">BUY NOW</a>
-                    </div>
+                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="index.html#features18-1o" class="btn btn-primary-outline display-4">REQUISITOS</a></div>
                 </div>
             </div>
 
-            <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-4">
+            <div class="plan col-12 mx-2 my-2 justify-content-center favorite col-lg-3">
                 <div class="plan-header text-center pt-5">
-                    <h3 class="plan-title mbr-fonts-style display-5">CRÉDITOS VIP</h3>
+                    <h3 class="plan-title mbr-fonts-style display-5">CRÉDITO VIP</h3>
                     <div class="plan-price">
-                        <span class="price-value mbr-fonts-style display-5">
-                            $
-                        </span>
-                        <span class="price-figure mbr-fonts-style display-1">
-                            90</span>
+                        <span class="price-value mbr-fonts-style display-5">&nbsp;</span>
+                        <span class="price-figure mbr-fonts-style display-1">120</span>
                         <small class="price-term mbr-fonts-style display-7">
-                            per year
-                        </small>
+                            Dias Máximo</small>
                     </div>
                 </div>
                 <div class="plan-body">
                     <div class="plan-list align-center">
                         <ul class="list-group list-group-flush mbr-fonts-style display-7">
+                            <li class="list-group-item"><strong>
+                                GRUPO ALVO</strong></li>
                             <li class="list-group-item">
-                                Mobirise is perfect for non-techies who are not familiar with web development.
-                            </li>
-                            <li class="list-group-item">
-                                15 GB Bandwidth
-                            </li>
-                            <li class="list-group-item">
-                                Free Domain
-                            </li>
-                            <li class="list-group-item">
-                                Backup
-                            </li>
+                                Todos que se beneficiaram de ceditos desde a sua criação (16 de Agosto de 2017)</li>
                         </ul>
                     </div>
-                    <div class="mbr-section-btn text-center py-4 pb-5">
-                        <a href="https://mobirise.co" class="btn btn-primary display-4">BUY NOW</a>
-                    </div>
+                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="index.html#features18-1o" class="btn btn-secondary-outline display-4">REQUISTOS</a></div>
                 </div>
             </div>
 
-            
+            <div class="plan col-12 mx-2 my-2 justify-content-center col-lg-3">
+                <div class="plan-header text-center pt-5">
+                    <h3 class="plan-title mbr-fonts-style display-5">CRÉDITO PELA PENHORA</h3>
+                    <div class="plan-price">
+                        <span class="price-value mbr-fonts-style display-5">&nbsp;</span>
+                        <span class="price-figure mbr-fonts-style display-1">
+                            120</span>
+                        <small class="price-term mbr-fonts-style display-7">Dias Máximo</small>
+                    </div>
+                </div>
+                <div class="plan-body">
+                    <div class="plan-list align-center">
+                        <ul class="list-group list-group-flush mbr-fonts-style display-7">
+                            <li class="list-group-item"><strong>GRUPO ALVO</strong></li><li class="list-group-item">Todos os que possuiem bens móveis (Viatura, motorizada, e outros bens) para penhorar</li>
+                        </ul>
+                    </div>
+                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="index.html#features18-1o" class="btn btn-secondary-outline display-4">REQUISTOS</a></div>
+                </div>
+            </div>
 
         </div>
     </div>
 </section>
 
-<section class="progress-bars3 cid-rbHUvGRGnI" id="progress-bars3-m">
- 
-     
-
-    
-    
-    <div class="container">
-        <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">
-            COBERTURA POR LINHA DE CRÉDITO</h2>
-
-        <h3 class="mbr-section-subtitle mbr-fonts-style display-5">
-            Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.
-        </h3>
-    
-        <div class="media-container-row pt-5 mt-2">
-            <div class="card p-3 align-center">
-                <div class="wrap">
-                    <div class="pie_progress progress1" role="progressbar" data-goal="50">
-                        <p class="pie_progress__number mbr-fonts-style display-5"></p>
-                    </div>
-                </div> 
-                <div class="mbr-crt-title pt-3">
-                    <h4 class="card-title py-2 mbr-fonts-style display-5">
-                        Amenity
-                    </h4>
-                </div>                 
-            </div>
-
-            <div class="card p-3 align-center">
-                <div class="wrap">
-                    <div class="pie_progress progress2" role="progressbar" data-goal="60">
-                        <p class="pie_progress__number mbr-fonts-style display-5">60%</p>
-                    </div>
-                </div> 
-                <div class="mbr-crt-title pt-3">
-                    <h4 class="card-title py-2 mbr-fonts-style display-5">
-                        Publick transport
-                    </h4>
-                </div>                 
-            </div>
-
-            <div class="card p-3 align-center">
-                <div class="wrap">
-                    <div class="pie_progress progress3" role="progressbar" data-goal="70">
-                        <p class="pie_progress__number mbr-fonts-style display-5"></p>
-                    </div>
-                </div> 
-                <div class="mbr-crt-title pt-3">
-                    <h4 class="card-title py-2 mbr-fonts-style display-5">
-                        Nightlife
-                    </h4>
-                </div>                 
-            </div>
-
-            <div class="card p-3 align-center">
-                <div class="wrap">
-                    <div class="pie_progress progress4" role="progressbar" data-goal="80">
-                        <p class="pie_progress__number mbr-fonts-style display-5"></p>
-                    </div>
-                </div> 
-                <div class="mbr-crt-title pt-3">
-                    <h4 class="card-title py-2 mbr-fonts-style display-5">
-                        Safety
-                    </h4>
-                </div>                 
-            </div>
-
-            
-
-            
-        </div>
-</div></section>
-
-<section class="header1 cid-rbHOn5e7Oh mbr-parallax-background" id="header1-1">
+<section class="header1 cid-rbHOn5e7Oh mbr-fullscreen mbr-parallax-background" id="header1-1">
 
     
 
@@ -359,23 +279,220 @@
     <div class="container">
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">MICROCRÉDITOS</h1>
-                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">
-                    Beautiful mobile websites
-                </h3>
-                <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
-                    Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it.
-                </p>
-                <div class="mbr-section-btn align-center">
-                    <a class="btn btn-md btn-primary display-4" href="https://mobirise.co">
-                        <span class="mbr-iconfont mbri-file"></span>LEARN MORE</a>
-                    <a class="btn btn-md btn-white-outline display-4" href="https://mobirise.co">
-                        <span class="mbr-iconfont mbri-idea"></span>LIVE DEMO</a>
-                </div>
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-2"><span style="font-weight: normal;">SISTEMA DE MICROCRÉDITOS</span></h1>
+                
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-7">•	É voltado ao financiamento das actividades produtivas dos pequenos negócios;
+<br>•	O valor financiado é compatível com as necessidades do negócio e da capacidade de pagamento;
+<br>• As Solicitações de garantias reais (patrimônio);
+<br>•	Os prazos de pagamento são curtos, ligados à finalidade do financiamento e ao fluxo de caixa da actividade empresarial;
+<br>•	O crédito é rápido, pois busca permitir que o cliente aproveite a oportunidade de negócio;
+<br>• As exigências de documentos tesmunhas dependendo do negócio;&nbsp;<br></p>
+                <div class="mbr-section-btn align-center"><a class="btn btn-md btn-danger display-4" href="index.html"><span class="mbri-file mbr-iconfont mbr-iconfont-btn"></span>LER MAIS</a>
+                    <a class="btn btn-md btn-white-outline display-4" href="index.html"><span class="mbri-cash mbr-iconfont mbr-iconfont-btn"></span>EMPRESTIMOS</a></div>
             </div>
         </div>
     </div>
 
+</section>
+
+<section class="features18 popup-btn-cards cid-rc5gTeI85K" id="features18-1o">
+
+    
+
+    
+    <div class="container">
+        <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">REQUISITOS PARA ACESSO AO CRÉDITO</h2>
+        
+        <div class="media-container-row pt-5 ">
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-wrapper ">
+                    <div class="card-img">
+                        <div class="mbr-overlay"></div>
+                        <div class="mbr-section-btn text-center"><a href="index.html#pricing-tables2-v" class="btn btn-primary display-4">Ler Mais</a></div>
+                        <img src="assets/images/mbr-676x452.jpg" alt="Mobirise" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-7">
+                            CRÉDITO AO CONSUMO</h4>
+                        <p class="mbr-text mbr-fonts-style align-left display-7">1. Declaração de Serviço
+<br>2. Fotocópia de B.I
+<br>3. Extrato da Conta Bancária
+<br>4. Cartão da Conta Bancária</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <div class="mbr-overlay"></div>
+                        <div class="mbr-section-btn text-center"><a href="index.html#pricing-tables2-v" class="btn btn-primary display-4">Ler Mais</a></div>
+                        <img src="assets/images/mbr-676x451.jpg" alt="Mobirise" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-7">
+                            CRÉDITO PARA NEGÓCIO</h4>
+                        <p class="mbr-text mbr-fonts-style display-7">1. Declaração do Bairro
+<br>2. Bem Penhorado
+<br>3. Duas Testemunhas<br><br></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card p-3 col-12 col-md-6 col-lg-4">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <div class="mbr-overlay"></div>
+                        <div class="mbr-section-btn text-center"><a href="index.html#pricing-tables2-v" class="btn btn-primary display-4">Ler Mais</a></div>
+                        <img src="assets/images/mbr-676x450.jpg" alt="Mobirise" title="">
+                    </div>
+                    <div class="card-box">
+                        <h4 class="card-title mbr-fonts-style display-7">
+                            CRÉDITO PELA PENHOR</h4>
+                        <p class="mbr-text mbr-fonts-style display-7">1. Declaração de Penhor Reconhecido no notáriado
+<br>2. Documento do imovél (Livrete, Titulo de Propriedade)</p>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</section>
+
+<section class="testimonials5 cid-rbKf7ODmjf" id="testimonials5-10">
+
+    
+
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 align-center">
+                <h2 class="pb-3 mbr-fonts-style display-5">A EQUIPE DA EMPRESA</h2>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="media-container-column">
+            
+
+            
+        <div class="mbr-testimonial align-center col-12 col-md-10">
+                <div class="panel-item">
+                    <div class="card-block">
+                        <div class="testimonial-photo">
+                            <img src="assets/images/rjose-225x227.jpg" alt="" title="">
+                        </div>
+                        <p class="mbr-text mbr-fonts-style mbr-white display-7">Descrição Bibliografica</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="mbr-author-name mbr-bold mbr-fonts-style mbr-white display-7">Jamal , GESTOR GERAL</div>
+                        
+                    </div>
+                </div>
+            </div><div class="mbr-testimonial align-center col-12 col-md-10">
+                <div class="panel-item">
+                    <div class="card-block">
+                        <div class="testimonial-photo">
+                            <img src="assets/images/face2.jpg">
+                        </div>
+                        <p class="mbr-text mbr-fonts-style mbr-white display-7">
+                           DESCRICAO BIBLIOGRAFICA</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="mbr-author-name mbr-bold mbr-fonts-style mbr-white display-7">jAMALITO, ADMINISTRATIVO</div>
+                        
+                    </div>
+                </div>
+            </div><div class="mbr-testimonial align-center col-12 col-md-10">
+                <div class="panel-item">
+                    <div class="card-block">
+                        <div class="testimonial-photo">
+                            <img src="assets/images/img-20160812-143556-edit-240x306.jpg" alt="" title="">
+                        </div>
+                        <p class="mbr-text mbr-fonts-style mbr-white display-7">
+                           DECRICAO BIBLIOGRAFICA</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="mbr-author-name mbr-bold mbr-fonts-style mbr-white display-7">sUZANA, sECRETARIA</div>
+                        
+                    </div>
+                </div>
+            </div></div>
+    </div>   
+</section>
+
+<section class="mbr-section form1 cid-rbHUgGslAd mbr-parallax-background" id="form1-l">
+
+    
+
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-12 col-lg-8">
+                <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">FORMULÁRIO DE CONTACTO</h2>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="media-container-column col-lg-8" data-form-type="formoid">
+                    <div data-form-alert="" hidden="">Obrigado pela sua subescrição do formulário</div>
+            
+                    <form class="mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="2Lx6suq3+DHAyfKYmwxg2Py/kOZq34KSbo5LpAy98WrXqUCaZxjvxqPuEYIDJ8llbb7xI/8FFxdOYJI/SZ+0MPH5VLdU4f+6ZcqS1m6eS/KkkgOnr/BizeWYGsbFEd/9">
+                        <div class="row row-sm-offset">
+                            <div class="col-md-4 multi-horizontal" data-for="name">
+                                <div class="form-group">
+                                    <label class="form-control-label mbr-fonts-style display-7" for="name-form1-l">Nome</label>
+                                    <input type="text" class="form-control" name="name" data-form-field="Name" required="" id="name-form1-l">
+                                </div>
+                            </div>
+                            <div class="col-md-4 multi-horizontal" data-for="email">
+                                <div class="form-group">
+                                    <label class="form-control-label mbr-fonts-style display-7" for="email-form1-l">Email</label>
+                                    <input type="email" class="form-control" name="email" data-form-field="Email" required="" id="email-form1-l">
+                                </div>
+                            </div>
+                            <div class="col-md-4 multi-horizontal" data-for="phone">
+                                <div class="form-group">
+                                    <label class="form-control-label mbr-fonts-style display-7" for="phone-form1-l">Telefone</label>
+                                    <input type="tel" class="form-control" name="phone" data-form-field="Phone" id="phone-form1-l">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group" data-for="message">
+                            <label class="form-control-label mbr-fonts-style display-7" for="message-form1-l">Menssagem</label>
+                            <textarea type="text" class="form-control" name="message" rows="7" data-form-field="Message" id="message-form1-l"></textarea>
+                        </div>
+            
+                        <span class="input-group-btn"><button href="" type="submit" class="btn btn-primary btn-form display-4">Enviar Formulário</button></span>
+                    </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="countdown1 cid-rbTGxdSVpp" id="countdown1-12">
+    
+    
+    <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(35, 35, 35);">
+    </div>
+    <div class="container ">
+        <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">
+            PERMANÊNCIA NO MERCADO DE SERVIÇO</h2>
+        
+        
+    </div>
+    <div class="container countdown-cont align-center">
+        <div class="daysCountdown" title="Dias"></div>
+        <div class="hoursCountdown" title="Horas"></div> 
+        <div class="minutesCountdown" title="Minutos"></div> 
+        <div class="secondsCountdown" title="Segundos"></div>
+        <div class="countdown pt-5 mt-2" data-due-date="2017/08/16"> 
+        </div>
+    </div>
 </section>
 
 <section class="clients cid-rbHQdY88Pw" id="clients-9">
@@ -385,17 +502,15 @@
         <div class="container mb-5">
             <div class="media-container-row">
                 <div class="col-12 align-center">
-                    <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">NOSSOS PARCEIROS</h2>
-                    <h3 class="mbr-section-subtitle mbr-light mbr-fonts-style display-5">
-                        Click any image to change it.Click blue "Gear" icon in the top right corner to change background, amount slides and amount visible items at once.
-                    </h3>
+                    <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">REALIZAÇÕES E PARCEIROS</h2>
+                    <h3 class="mbr-section-subtitle mbr-light mbr-fonts-style display-5">BREVE DESRICAO&nbsp;</h3>
                 </div>
             </div>
         </div>
 
     <div class="container">
         <div class="carousel slide" data-ride="carousel" role="listbox">
-            <div class="carousel-inner" data-visible="5">
+            <div class="carousel-inner" data-visible="6">
                 
                 
                 
@@ -456,57 +571,14 @@
     </div>
 </section>
 
-<section class="mbr-section form1 cid-rbHUgGslAd mbr-parallax-background" id="form1-l">
+<section class="mbr-gallery mbr-slider-carousel cid-rbTPP0LGSY" id="gallery1-1a">
 
     
 
-    
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-12 col-lg-8">
-                <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">FORMULÁRIO DE CONTACTO</h2>
-                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">AAAAAA</h3>
-            </div>
-        </div>
+        <div><!-- Filter --><!-- Gallery --><div class="mbr-gallery-row"><div class="mbr-gallery-layout-default"><div><div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome"><div href="#lb-gallery1-1a" data-slide-to="0" data-toggle="modal"><img src="assets/images/gallery00.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG1</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Responsive"><div href="#lb-gallery1-1a" data-slide-to="1" data-toggle="modal"><img src="assets/images/gallery01.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG2</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Creative"><div href="#lb-gallery1-1a" data-slide-to="2" data-toggle="modal"><img src="assets/images/gallery02.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG3</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1a" data-slide-to="3" data-toggle="modal"><img src="assets/images/gallery03.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG4</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome"><div href="#lb-gallery1-1a" data-slide-to="4" data-toggle="modal"><img src="assets/images/gallery04.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG5</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome"><div href="#lb-gallery1-1a" data-slide-to="5" data-toggle="modal"><img src="assets/images/gallery05.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG6</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Responsive"><div href="#lb-gallery1-1a" data-slide-to="6" data-toggle="modal"><img src="assets/images/gallery06.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG7</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1a" data-slide-to="7" data-toggle="modal"><img src="assets/images/gallery07.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG8</span></div></div></div></div><div class="clearfix"></div></div></div><!-- Lightbox --><div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery1-1a"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><div class="carousel-inner"><div class="carousel-item active"><img src="assets/images/gallery00.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/gallery01.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/gallery02.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/gallery03.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/gallery04.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/gallery05.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/gallery06.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/gallery07.jpg" alt="" title=""></div></div><a class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#lb-gallery1-1a"><span class="mbri-left mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control carousel-control-next" role="button" data-slide="next" href="#lb-gallery1-1a"><span class="mbri-right mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Next</span></a><a class="close" href="#" role="button" data-dismiss="modal"><span class="sr-only">Close</span></a></div></div></div></div></div>
     </div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="media-container-column col-lg-8" data-form-type="formoid">
-                    <div data-form-alert="" hidden="">
-                        Thanks for filling out the form!
-                    </div>
-            
-                    <form class="mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="sG+ElaguJreAFMfq1K79ZSLRts5h2fEaRHXgbj/o6YYo1+lIfoHhgfsKhu93zbCnXEMtHQARLY2n9SkQgbizisOB4RzaJtyEgi6+naST5EzUruXM9sV2vqDF///Bw0KR">
-                        <div class="row row-sm-offset">
-                            <div class="col-md-4 multi-horizontal" data-for="name">
-                                <div class="form-group">
-                                    <label class="form-control-label mbr-fonts-style display-7" for="name-form1-l">Name</label>
-                                    <input type="text" class="form-control" name="name" data-form-field="Name" required="" id="name-form1-l">
-                                </div>
-                            </div>
-                            <div class="col-md-4 multi-horizontal" data-for="email">
-                                <div class="form-group">
-                                    <label class="form-control-label mbr-fonts-style display-7" for="email-form1-l">Email</label>
-                                    <input type="email" class="form-control" name="email" data-form-field="Email" required="" id="email-form1-l">
-                                </div>
-                            </div>
-                            <div class="col-md-4 multi-horizontal" data-for="phone">
-                                <div class="form-group">
-                                    <label class="form-control-label mbr-fonts-style display-7" for="phone-form1-l">Phone</label>
-                                    <input type="tel" class="form-control" name="phone" data-form-field="Phone" id="phone-form1-l">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group" data-for="message">
-                            <label class="form-control-label mbr-fonts-style display-7" for="message-form1-l">Message</label>
-                            <textarea type="text" class="form-control" name="message" rows="7" data-form-field="Message" id="message-form1-l"></textarea>
-                        </div>
-            
-                        <span class="input-group-btn"><button href="" type="submit" class="btn btn-primary btn-form display-4">SEND FORM</button></span>
-                    </form>
-            </div>
-        </div>
-    </div>
+
 </section>
 
 <section class="cid-rbHQqGCxyd" id="footer1-b">
@@ -526,27 +598,17 @@
             </div>
             <div class="col-12 col-md-3 mbr-fonts-style display-7">
                 <h5 class="pb-3">Endereço</h5>
-                <p class="mbr-text">
-                    1234 Street Name
-                    <br>City, AA 99999
-                </p>
+                <p class="mbr-text">Cidade de Pemba<br>Via Praia do Wimbe<br>À Direita da SOS</p>
             </div>
             <div class="col-12 col-md-3 mbr-fonts-style display-7">
                 <h5 class="pb-3">
                     Contactos</h5>
                 <p class="mbr-text">
-                    Email: support@mobirise.com
-                    <br>Phone: +1 (0) 000 0000 001
-                    <br>Fax: +1 (0) 000 0000 002
-                </p>
+                    Email: jamal.jamalito@gmail.com Phone: +258 849018210 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>Caixa Postal: 997652</p>
             </div>
             <div class="col-12 col-md-3 mbr-fonts-style display-7">
                 <h5 class="pb-3">Parceiros</h5>
-                <p class="mbr-text">
-                    <a class="text-primary" href="https://mobirise.co/">Website builder</a>
-                    <br><a class="text-primary" href="https://mobirise.co/">Download for Windows</a>
-                    <br><a class="text-primary" href="https://mobirise.co/">Download for Mac</a>
-                </p>
+                <p class="mbr-text">BANCO DE MOÇAMBIQUE<br>JAMAL<br>OUTROS</p>
             </div>
         </div>
         <div class="footer-lower">
@@ -558,8 +620,7 @@
             <div class="media-container-row mbr-white">
                 <div class="col-sm-6 copyright">
                     <p class="mbr-text mbr-fonts-style display-7">
-                        © Copyright 2017 Mobirise - All Rights Reserved
-                    </p>
+                        © Desenvolvido pela INFOSS.NET, E.I - 2018</p>
                 </div>
                 <div class="col-md-6">
                     <div class="social-list align-right">
@@ -602,21 +663,26 @@
 
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
-  <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/parallax/jarallax.min.js"></script>
   <script src="assets/dropdown/js/script.min.js"></script>
-  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
   <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
-  <script src="assets/as-pie-progress/jquery-as-pie-progress.min.js"></script>
-  <script src="assets/parallax/jarallax.min.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/mbr-popup-btns/mbr-popup-btns.js"></script>
+  <script src="assets/countdown/jquery.countdown.min.js"></script>
   <script src="assets/mbr-clients-slider/mbr-clients-slider.js"></script>
+  <script src="assets/masonry/masonry.pkgd.min.js"></script>
+  <script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
-  <script src="assets/slidervideo/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
+  <script src="assets/gallery/player.min.js"></script>
+  <script src="assets/gallery/script.js"></script>
+  <script src="assets/slidervideo/script.js"></script>
   
   
 </body>

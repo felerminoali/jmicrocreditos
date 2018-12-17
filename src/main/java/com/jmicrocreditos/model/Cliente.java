@@ -37,20 +37,22 @@ public class Cliente implements Serializable {
     @Column(name = "idcliente")
     private Integer idcliente;
     @Basic(optional = false)
-    @Column(name = "nome")
-    private String nome;
-    @Basic(optional = false)
-    @Column(name = "apelido")
-    private String apelido;
-    @Basic(optional = false)
     @Column(name = "nr_bi")
-    private int nrBi;
+    private String nrBi;
     @Column(name = "linhaendereco1")
     private String linhaendereco1;
     @Column(name = "linhaendereco2")
     private String linhaendereco2;
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "idcliente", fetch = FetchType.LAZY)
-    private List<Contacto> contactoList;
+    @Basic(optional = false)
+    @Column(name = "contacto1")
+    private String contacto1;
+    @Column(name = "contacto2")
+    private String contacto2;
+
+    @JoinColumn(name = "idsexo", referencedColumnName = "idsexo")
+    @ManyToOne(optional = false, fetch = FetchType.LAZY)
+    private Sexo idsexo;
+
     @JoinColumn(name = "iddistrito", referencedColumnName = "ididstrito")
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     private Distrito iddistrito;
@@ -72,11 +74,10 @@ public class Cliente implements Serializable {
         this.idcliente = idcliente;
     }
 
-    public Cliente(Integer idcliente, String nome, String apelido, int nrBi) {
+    public Cliente(Integer idcliente, String nrBi, String contacto1, String apelido, String nome) {
         this.idcliente = idcliente;
-        this.nome = nome;
-        this.apelido = apelido;
         this.nrBi = nrBi;
+        this.contacto1 = contacto1;
     }
 
     public Integer getIdcliente() {
@@ -87,27 +88,11 @@ public class Cliente implements Serializable {
         this.idcliente = idcliente;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getApelido() {
-        return apelido;
-    }
-
-    public void setApelido(String apelido) {
-        this.apelido = apelido;
-    }
-
-    public int getNrBi() {
+    public String getNrBi() {
         return nrBi;
     }
 
-    public void setNrBi(int nrBi) {
+    public void setNrBi(String nrBi) {
         this.nrBi = nrBi;
     }
 
@@ -127,12 +112,28 @@ public class Cliente implements Serializable {
         this.linhaendereco2 = linhaendereco2;
     }
 
-    public List<Contacto> getContactoList() {
-        return contactoList;
+    public String getContacto1() {
+        return contacto1;
     }
 
-    public void setContactoList(List<Contacto> contactoList) {
-        this.contactoList = contactoList;
+    public void setContacto1(String contacto1) {
+        this.contacto1 = contacto1;
+    }
+
+    public String getContacto2() {
+        return contacto2;
+    }
+
+    public void setContacto2(String contacto2) {
+        this.contacto2 = contacto2;
+    }
+
+    public Sexo getIdsexo() {
+        return idsexo;
+    }
+
+    public void setIdsexo(Sexo idsexo) {
+        this.idsexo = idsexo;
     }
 
     public Distrito getIddistrito() {

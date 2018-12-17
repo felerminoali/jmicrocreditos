@@ -37,16 +37,17 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
 
-        http.authorizeRequests()
+        http.csrf().disable().authorizeRequests()
                     .antMatchers("**/emprestar/**").authenticated()
                     .anyRequest().permitAll()
                     .and()
                 .formLogin()
-//                       .loginPage("/login")
+                       .loginPage("/login")
 //                        .successForwardUrl("/")
 //                        .defaultSuccessUrl("/")
                         .failureUrl("/login?error=true")
-                        .usernameParameter("username")
+//                        .usernameParameter("username")
+                .usernameParameter("email")
                         .passwordParameter("password")
                         .permitAll()
                         .and()

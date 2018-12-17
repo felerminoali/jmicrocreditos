@@ -1,238 +1,314 @@
-<%@ page import="com.jmicrocreditos.model.*" %>
-<%@ page import="java.util.List" %>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@page contentType="text/html" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
-    <head>
-        <title>Clients</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--===============================================================================================-->
-        <link rel="icon" type="/image/png" href="/images/icons/favicon.ico" />
-        <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap.min.css">
-        <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-        <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-        <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="/vendor/animate/animate.css">
-        <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="/vendor/css-hamburgers/hamburgers.min.css">
-        <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="/vendor/animsition/css/animsition.min.css">
-        <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="/vendor/select2/select2.min.css">
-        <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="/vendor/daterangepicker/daterangepicker.css">
-        <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="/css/util.css">
-        <link rel="stylesheet" type="text/css" href="/css/main.css">
-        <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="/custms_css/custms_style.css">
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
 
-        <script>
-            function validarCadastro{
+    <!-- Title Page-->
+    <title>Register</title>
 
-                if (document.formulario.cSenha.value !== document.formulario.senha.value) {
-                    alert("Senhas diferentes, Tente novamente");
-                    document.formulario.confSenha.focus();
-                            return false;
-                }
+    <!-- Fontfaces CSS-->
+    <link href="/css/font-face.css" rel="stylesheet" media="all">
+    <link href="/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
 
-            }
-        </script>
+    <!-- Bootstrap CSS-->
+    <link href="/vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
 
-    </head>
+    <!-- Vendor CSS-->
+    <link href="/vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="/vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="/vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
 
-    <body>
+    <!-- Main CSS-->
+    <link href="/css/theme.css" rel="stylesheet" media="all">
 
-        <div class="limiter" >
-            <div class="container-login100">
-                <div class="wrap-login100">
+</head>
 
-                    <div class="login100-form-title" style="background-image: url(/images/cadastro.jpg);">
-                        <span class="login100-form-title-1">
-                            Formulário de Pré-Cadastro
+<body class="animsition">
+<div class="page-wrapper">
+    <div class="page-content--bgf7">
+        <div class="container">
+            <div class="login-wrap">
+                <div class="login-content">
 
-                        </span>
-                     </div>
+                    <div class="login-logo">
+                        <a href="#" class="alert-heading">
+                            <img src="/images/icon/logo.png" alt="CoolAdmin">
+                        </a>
 
-                    <form class="login100-form validate-form"
-                          name="formulario"
-                          method="POST" action="/user/save" modelAttribute="cliente"
-                          onSubmit="return validarCadastro()" style="color: black;font-weight;">
+                        <%--<div class="sufee-alert alert with-close alert-success alert-dismissible fade show">--%>
+                            <%--<span class="badge badge-pill badge-success">Success</span>--%>
+                            <%--You successfully inserted--%>
+                            <%--<button type="button" class="close" data-dismiss="alert" aria-label="Close">--%>
+                                <%--<span aria-hidden="true">&times;</span>--%>
+                            <%--</button>--%>
+                        <%--</div>--%>
 
-                        <div class="wrap-input100 validate-input m-b-26" data-validate="O Campo Apelido e Obrigatório, Insira!">
-                            <span class="label-input100">
-                                <label for="nome">Nome </label>
-                            </span>
-                            <input class="input100" type="text" id="nome" value=""  name="nome" placeholder="Insira o Apelido " autocomplete="off">
-                            <span class="focus-input100"></span>
-                        </div>
+                    </div>
 
+                    <div class="login-form">
+                        <form action="" method="post" novalidate="novalidate">
 
-                        <div class="wrap-input100 validate-input m-b-26" data-validate="O Campo Apelido e Obrigatório, Insira!">
-                            <span class="label-input100">
-                                <label for="apelido">Apelido </label>
-                            </span>
-                            <input class="input100" type="text" id="apelido" value=""  name="apelido" placeholder="Insira o Apelido " autocomplete="off">
-                            <span class="focus-input100"></span>
-                        </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="nome" class="control-label mb-1">Primeiro nome: </label>
+                                    <input id="nome" name="nome" type="text" class="form-control" aria-required="true"
+                                           aria-invalid="false" value="">
+                                </div>
+                                <div class="col-6">
+                                    <label for="apelido" class="control-label mb-1">Apelido</label>
+                                    <input id="apelido" name="apelido" type="text" class="form-control apelido valid"
+                                           data-val="true"
+                                           data-val-required="Please enter the name on card"
+                                           autocomplete="apelido" aria-required="true" aria-invalid="false"
+                                           aria-describedby="apelido-error">
+                                    <span class="help-block field-validation-valid" data-valmsg-for="apelido"
+                                          data-valmsg-replace="true"></span>
+                                </div>
 
-                        <div class="wrap-input100 validate-input m-b-26" data-validate="O Campo Numero de Documento e Obrigatório, Insira!">
-
-                            <span class="label-input100">
-                                <label for="nrBi">Nº. Doc. </label>
-                            </span>
-                            <input class="input100" type="text" value="" id="nrBi" name="nrBi" placeholder="Insira o Numero de Documento " autocomplete="off">
-                            <span class="focus-input100"></span>
-
-                        </div>
-
-                        <div class="wrap-input100 validate-input m-b-26" data-validate="O Campo Contacto e Obrigatório, Insira!">
-
-                            <span class="label-input100">
-                                <label for="contacto">Contacto </label>
-                            </span>
-
-                            <input class="input100" type="number" value="" id="contacto" name="contacto" placeholder="Insira o Contacto " autocomplete="off">
-                            <span class="focus-input100"></span>
-
-                        </div>
+                            </div>
 
 
-                        <div class="wrap-input100 validate-input m-b-18" data-validate="O Campo Sexo e Obrigatório!">
+                            <div class="form-group">
 
-                            <span class="label-input100" style="height: 50px;">
-                                <label for="sexo">Sexo</label>
-                            </span>
+                                <label for="email" class="control-label mb-1">Nr. Documento:</label>
+                                <div class="input-group">
+                                    <input id="nr_documento" name="nr_documento" type="text" class="form-control cc-cvc"
+                                           value=""
+                                           data-val="true" data-val-required="Please enter the security code"
+                                           data-val-cc-cvc="Please enter a valid security code" autocomplete="off">
+                                </div>
+                            </div>
 
-							<select class="input100 select_box" name="tipo_sexo" id="sexo">
-                                <c:forEach items="${sexo}" var="s">
-                                    <option value="${s.idsexo}">${s.descricao}</option>
-                                </c:forEach>
-                            </select>
-                            <span class="focus-input100"></span>
+                            <div class="row">
 
-                        </div>
-						
-						<div class="wrap-input100 validate-input m-b-18" data-validate="O Campo Estado Civil e Obrigatório!">
-                            <span class="label-input100" style="height: 50px;">
-                                <label for="idestadocivil">Estado Civil:</label>
-                            </span>
-							<select class="input100" name="idestadocivil" id="idestadocivil" style="border-radius: 10px;height: 40px;">
-                                <c:forEach items="${estadocivil}" var="ec">
-                                    <option value="${ec.idestadocivil}">${ec.descricao}</option>
-                                </c:forEach>
-                            </select>
-                            <span class="focus-input100"></span>
-                        </div>
-						
-						<div class="wrap-input100 validate-input m-b-18" data-validate="O Campo Provincia e Obrigatório!">
-                            <span class="label-input100" style="height: 50px;">
-                                <label for="provincia">Provincia</label>
-                            </span>
-                            <select class="input100 select_box" name="provincia" id="provincia">
-                                <c:forEach items="${provincia}" var="prov">
-                                    <option value="${prov.idprovincia}">${prov.descricao}</option>
-                                </c:forEach>
-                            </select>
-                            <span class="focus-input100"></span>
-                        </div>
+                                <div class="col-6">
+                                    <label for="sexo" class="control-label mb-1">Sexo:</label>
 
-                        <div class="wrap-input100 validate-input m-b-18" data-validate="O Campo Distrito e Obrigatório!">
-                            <span class="label-input100" style="height: 50px;">
-                                <label for="iddistrito">Distrito</label>
-                            </span>
-                            <select class="input100 select_box" name="iddistrito" id="iddistrito">
-                                <c:forEach items="${distrito}" var="distrito">
-                                    <option value="${distrito.ididstrito}">${distrito.descricao}</option>
-                                </c:forEach>
-                            </select>
+                                    <select name="sexo" id="sexo" class="form-control">
+                                        <c:forEach items="${sexo}" var="s">
+                                            <option value="${s.idsexo}">${s.descricao}</option>
+                                        </c:forEach>
+                                    </select>
+                                </div>
 
-                            <span class="focus-input100"></span>
-
-                        </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="idestadocivil" class="control-label mb-1">Estado Civil</label>
+                                        <select name="idestadocivil" id="idestadocivil" class="form-control">
+                                            <c:forEach items="${estadocivil}" var="ec">
+                                                <option value="${ec.idestadocivil}">${ec.descricao}</option>
+                                            </c:forEach>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
 
 
-                        <div class="wrap-input100 validate-input m-b-26" data-validate="O Campo Numero de Documento e Obrigatório, Insira!">
+                            <div class="row">
 
-                            <span class="label-input100">
-                                <label for="linhaendereco1">Endereço 1. </label>
-                            </span>
-                            <input class="input100" type="text" value="" id="linhaendereco1" name="linhaendereco1" placeholder="Insira o enderçeo " autocomplete="off">
-                            <span class="focus-input100"></span>
+                                <div class="col-6">
+                                    <label for="contacto1" class="control-label mb-1">Provincia:</label>
 
-                        </div>
+                                    <select name="provincia" id="provincia" class="form-control">
+                                        <c:forEach items="${provincia}" var="prov">
+                                            <option value="${prov.idprovincia}">${prov.descricao}</option>
+                                        </c:forEach>
+                                    </select>
+                                </div>
 
-                        <div class="wrap-input100 validate-input m-b-26" data-validate="O Campo Numero de Documento e Obrigatório, Insira!">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="contacto2" class="control-label mb-1">Distrito</label>
+                                        <select name="iddistrito" id="iddistrito" class="form-control">
+                                            <c:forEach items="${distrito}" var="distrito">
+                                                <option value="${distrito.ididstrito}">${distrito.descricao}</option>
+                                            </c:forEach>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
 
-                            <span class="label-input100">
-                                <label for="linhaendereco2">Endereço 2. </label>
-                            </span>
-                            <input class="input100" type="text" value="" id="linhaendereco2" name="linhaendereco2" placeholder="Insira o enderçeo " autocomplete="off">
-                            <span class="focus-input100"></span>
 
-                        </div>
+                            <div class="form-group">
 
-                        <div class="wrap-input100 validate-input m-b-18" data-validate="O Campo Endereço Obrigatório!">
-                            <span class="label-input100" style="height: 50px;">
-                                <label for="tipocredito">O que deseja ?</label>
-                            </span>
-                            <select class="input100 select_box" name="tipocredito" id="tipocredito">
+                                <label for="endereco1" class="control-label mb-1">Endereco 1:</label>
+                                <input id="endereco1" name="endereco1" type="txt"
+                                       class="form-control endereco1 identified visa" value="" data-val="false"
+                                       data-val-required="Insira o endereço" autocomplete="endereco1">
+                                <span class="help-block" data-valmsg-for="endereco1" data-valmsg-replace="true"></span>
 
-                                <c:forEach items="${tipocredito}" var="tipocredito">
-                                    <option value="${tipocredito.idcrecredito}">${tipocredito.descricao}</option>
-                                </c:forEach>
+                            </div>
 
-                            </select>
-                            <span class="focus-input100"></span>
-                        </div>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="endereco2" class="control-label mb-1">Endereco 2:</label>
+                                    <input id="endereco2" name="endereco2" type="txt"
+                                           class="form-control endereco2 identified visa" value="" data-val="false"
+                                           data-val-required="Insira o endereço" autocomplete="endereco2">
+                                    <span class="help-block" data-valmsg-for="endereco1"
+                                          data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
 
-                        <div class="container-login100-form-btn">
-                            <button class="login100-form-btn" type="submit" onclick="return validarCadastro()">
 
-                               Submeter
-                                <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-                            </button>&nbsp;&nbsp;
+                            <div class="row">
 
-                            <button class="login100-form-btn" style="background-color: darkred;" type="reset">
-                                Limpar
-                            </button>
-                        </div>
+                                <div class="col-6">
 
-                        <div style="margin-top: 20px;font-size: 14px;">
-                            Deseja Voltar a Página Inicial?
-                            <a href="/" class="txt2">
-                                Página Inicial.
-                            </a>
-                        </div>
-                    </form>
+                                    <label for="contacto1" class="control-label mb-1">Contacto 1:</label>
+                                    <input id="contacto1" name="contacto1" type="text"
+                                           class="form-control contacto1 identified visa" value="" data-val="false"
+                                           data-val-required="Insira o seu contacto"
+                                           data-val-username="Please enter a valid contacto"
+                                           autocomplete="contacto1">
+                                    <span class="help-block" data-valmsg-for="contacto1"
+                                          data-valmsg-replace="true"></span>
+
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="contacto2" class="control-label mb-1">Contacto 2:</label>
+                                        <input id="contacto2" name="contacto2" type="text"
+                                               class="form-control contacto1 identified visa" value="" data-val="false"
+                                               data-val-required="Insira o seu contacto"
+                                               data-val-username="Please enter a valid contacto"
+                                               autocomplete="contacto2">
+                                        <span class="help-block" data-valmsg-for="contacto1"
+                                              data-valmsg-replace="true"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="email" class="control-label mb-1">Email:</label>
+                                <div class="input-group">
+                                    <input id="email" name="email" type="email" class="form-control" value=""
+                                           data-val="true"
+                                           data-val-required="Inserira o email"
+                                           data-val-cc-cvc="Insira email" autocomplete="off">
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-6">
+
+                                    <label for="password" class="control-label mb-1">Password:</label>
+                                    <input id="password" name="password" type="password"
+                                           class="form-control password identified visa" value="" data-val="false"
+                                           data-val-required="Insira o seu passord"
+                                           data-val-username="Please enter a valid password"
+                                           autocomplete="password">
+                                    <span class="help-block" data-valmsg-for="username"
+                                          data-valmsg-replace="true"></span>
+
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="password1" class="control-label mb-1">Confirmar Password:</label>
+                                        <input id="password1" name="password1" type="password"
+                                               class="form-control password" value="" data-val="true"
+                                               data-val-required="Please enter the card expiration"
+                                               data-val-password="Please enter a valid month and year" placeholder=""
+                                               autocomplete="password1">
+                                        <span class="help-block" data-valmsg-for="password"
+                                              data-valmsg-replace="true"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="tipocredito" class="control-label mb-1">Qual é o crétido que procura
+                                    ?</label>
+                                <div class="input-group">
+
+                                    <select name="tipocredito" id="tipocredito" class="form-control">
+                                        <c:forEach items="${tipocredito}" var="tipocredito">
+                                            <option value="${tipocredito.idcrecredito}">${tipocredito.descricao}</option>
+                                        </c:forEach>
+
+                                    </select>
+
+                                </div>
+                            </div>
+
+                            <div>
+
+                                <button id="btn_register" type="submit" class="btn btn-lg btn-info btn-block">
+                                    <%--<i class="fa fa-send fa-lg"></i>&nbsp;--%>
+                                    <span id="btn_register-amount">Registar</span>
+                                    <span id="btn_register-sending" style="display:none;">Sending…</span>
+                                </button>
+                            </div>
+
+
+                            <div class="register-link">
+                                <p>
+                                    Já registado?
+                                    <a href="/login">Login</a>
+                                </p>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+
                 </div>
             </div>
         </div>
+    </div>
 
-        <!--===============================================================================================-->
-        <script src="/vendor/jquery/jquery-3.2.1.min.js"></script>
-        <!--===============================================================================================-->
-        <script src="/vendor/animsition/js/animsition.min.js"></script>
-        <!--===============================================================================================-->
-        <script src="/vendor/bootstrap/js/popper.js"></script>
-        <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
-        <!--===============================================================================================-->
-        <script src="/vendor/select2/select2.min.js"></script>
-        <!--===============================================================================================-->
-        <script src="/vendor/daterangepicker/moment.min.js"></script>
-        <script src="/vendor/daterangepicker/daterangepicker.js"></script>
-        <!--===============================================================================================-->
-        <script src="/vendor/countdowntime/countdowntime.js"></script>
-        <!--===============================================================================================-->
-        <script src="/js/main1.js"></script>
+</div>
 
-    </body>
+
+<!-- Jquery JS-->
+<script src="/vendor/jquery-3.2.1.min.js"></script>
+<!-- Bootstrap JS-->
+<script src="/vendor/bootstrap-4.1/popper.min.js"></script>
+<script src="/vendor/bootstrap-4.1/bootstrap.min.js"></script>
+<!-- Vendor JS       -->
+<script src="/vendor/slick/slick.min.js">
+</script>
+<script src="/vendor/wow/wow.min.js"></script>
+<script src="/vendor/animsition/animsition.min.js"></script>
+<script src="/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+</script>
+<script src="/vendor/counter-up/jquery.waypoints.min.js"></script>
+<script src="/vendor/counter-up/jquery.counterup.min.js">
+</script>
+<script src="/vendor/circle-progress/circle-progress.min.js"></script>
+<script src="/vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+<script src="/vendor/chartjs/Chart.bundle.min.js"></script>
+<script src="/vendor/select2/select2.min.js">
+</script>
+
+<!-- Main JS-->
+<script src="/js/main.js"></script>
+
+</body>
 
 </html>
+<!-- end document-->

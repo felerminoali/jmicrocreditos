@@ -2,6 +2,8 @@ package com.jmicrocreditos.config;
 
 import com.jmicrocreditos.service.CRUDService;
 import com.jmicrocreditos.service.CRUDServiceImpl;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -15,6 +17,7 @@ import java.util.Properties;
 @Configuration
 @EnableTransactionManagement
 @ComponentScan("com.jmicrocreditos")
+@EnableAutoConfiguration(exclude= HibernateJpaAutoConfiguration.class)
 public class HibernateConf {
 
     @Bean(name="entityManagerFactory")

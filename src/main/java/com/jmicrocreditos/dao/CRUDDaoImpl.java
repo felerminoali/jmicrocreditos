@@ -7,15 +7,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.hibernate.LockMode;
-import org.hibernate.LockOptions;
+import org.hibernate.*;
 
-import org.hibernate.Query;
-import org.hibernate.SQLQuery;
-import org.hibernate.Session;
-import org.hibernate.SessionBuilder;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
+import org.hibernate.query.NativeQuery;
+import org.hibernate.query.Query;
+//import org.hibernate.SQLQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -27,8 +23,10 @@ public class CRUDDaoImpl implements CRUDDao {
 
     @SuppressWarnings("unchecked")
     public <T> List<T> getAll(Class<T> klass) {
-        return getCurrentSession().createQuery("from " + klass.getName())
-                .list();
+        String q = "FROM " + klass.getName();
+        Query query = getCurrentSession().createQuery(q);
+
+        return  query.list();
 
     }
 
@@ -201,7 +199,7 @@ public class CRUDDaoImpl implements CRUDDao {
 
     @SuppressWarnings("unchecked")
     public <T> int updateQuery(String query, Object... params) {
-        SQLQuery q = getCurrentSession().createSQLQuery(query);
+        NativeQuery q = getCurrentSession().createSQLQuery(query);
         int i = 0;
         for (Object o : params) {
             q.setParameter(i, o);
@@ -213,7 +211,7 @@ public class CRUDDaoImpl implements CRUDDao {
 
     @SuppressWarnings("unchecked")
     public <T> List<T> findByQuery(String hql, Map<String, Object> entidade, Map<String, Object> namedParams) {
-        SQLQuery query = getCurrentSession().createSQLQuery(hql);
+        NativeQuery query = getCurrentSession().createSQLQuery(hql);
         if (entidade != null) {
             Entry mapEntry;
             for (Iterator it = entidade.entrySet().iterator(); it
@@ -237,7 +235,7 @@ public class CRUDDaoImpl implements CRUDDao {
 
     @SuppressWarnings("unchecked")
     public <T> List<T> findByQueryFilter(String hql, Map<String, Object> entidade, Map<String, Object> namedParams, int f, int m) {
-        SQLQuery query = getCurrentSession().createSQLQuery(hql);
+        NativeQuery query = getCurrentSession().createSQLQuery(hql);
         if (entidade != null) {
             Entry mapEntry;
             for (Iterator it = entidade.entrySet().iterator(); it
@@ -374,7 +372,7 @@ public class CRUDDaoImpl implements CRUDDao {
         Session s = getSession(tenant);
         s.beginTransaction();
         try {
-            SQLQuery q = s.createSQLQuery(query);
+            NativeQuery q = s.createSQLQuery(query);
             int i = 0;
 //            for (Object o : params) {
 //                q.setParameter(i, o);

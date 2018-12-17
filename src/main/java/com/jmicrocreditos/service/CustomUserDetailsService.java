@@ -2,8 +2,7 @@ package com.jmicrocreditos.service;
 
 
 import com.jmicrocreditos.model.CustomUserDetails;
-import com.jmicrocreditos.model.Users;
-import com.jmicrocreditos.repository.UsersRepository;
+import com.jmicrocreditos.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.dao.DataAccessException;
@@ -23,7 +22,7 @@ import java.util.Optional;
 //    @Override
 //    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 //
-//        Optional<Users> optionalUsers = usersRepository.findByName(username);
+//        Optional<User> optionalUsers = usersRepository.findByName(username);
 //
 //        optionalUsers
 //                .orElseThrow(() -> new UsernameNotFoundException("Username not found"));
@@ -42,12 +41,31 @@ public class CustomUserDetailsService implements UserDetailsService {
     @Qualifier("CRUDServiceImpl")
     private CRUDService crudService;
 
+//    @Override
+//    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException,
+//            DataAccessException {
+//
+//        User u = crudService.findEntByJPQueryT("SELECT u FROM User u WHERE u.name = '"+username+"'", null);
+//        Optional<User> optionalUsers = Optional.of(u);
+//
+//
+//        optionalUsers
+//                .orElseThrow(() -> new UsernameNotFoundException("Username not found"));
+//        CustomUserDetails customUserDetails = optionalUsers
+//                .map(users -> {
+//                    return new CustomUserDetails(users);
+//                }).get();
+//        return customUserDetails;
+//
+//    }
+
+
     @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException,
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException,
             DataAccessException {
 
-        Users u = crudService.findEntByJPQueryT("SELECT u FROM Users u WHERE u.name = '"+username+"'", null);
-        Optional<Users> optionalUsers = Optional.of(u);
+        User u = crudService.findEntByJPQueryT("SELECT u FROM User u WHERE u.email = '"+email+"'", null);
+        Optional<User> optionalUsers = Optional.of(u);
 
 
         optionalUsers
@@ -59,4 +77,5 @@ public class CustomUserDetailsService implements UserDetailsService {
         return customUserDetails;
 
     }
+
 }

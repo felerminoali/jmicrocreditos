@@ -120,12 +120,12 @@ public class CRUDServiceImpl implements CRUDService {
         return CRUDDao.findByQueryFilter(hql, entidade, namedParams, f, m);
     }
 
-    // @Transactional
+    @Transactional
     public <T> List<T> findByJPQuery(String hql, Map<String, Object> namedParams) {
         return CRUDDao.findByJPQuery(hql, namedParams);
     }
 
-    //@Transactional
+    @Transactional
     public <T> T findEntByJPQuery(String hql, Map<String, Object> namedParams) {
         return CRUDDao.findEntByJPQuery(hql, namedParams);
     }
@@ -150,7 +150,7 @@ public class CRUDServiceImpl implements CRUDService {
         return CRUDDao.load(klass, id);
     }
 
-    // @Transactional
+    @Transactional
     public <T> T get(Class<T> klass, Serializable id) {
         return CRUDDao.get(klass, id);
     }
