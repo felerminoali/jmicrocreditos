@@ -38,7 +38,7 @@ public class HibernateConf {
 //        dataSource.setUsername("postgres");
 //        dataSource.setPassword("root");
 
-        dataSource.setUrl("jdbc:postgresql://ec2-75-101-138-165.compute-1.amazonaws.com/d2d3u704al5gi3?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory");
+        dataSource.setUrl("jdbc:postgresql://ec2-75-101-138-165.compute-1.amazonaws.com/d2d3u704al5gi3");
         dataSource.setUsername("znfzlpxnwaveij");
         dataSource.setPassword("87b7b46433d0c67ee5613c8c416b0f08948f438b80db80bbc01dfc3fee92b26f");
 
