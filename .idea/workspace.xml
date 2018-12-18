@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0d0cffa0-a62e-4354-a1a5-591b1537a8d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -170,7 +169,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="60" selection-start-column="60" selection-end-column="60" />
+              <caret column="40" selection-start-column="30" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -421,7 +420,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545115218684" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545115662445" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../municipioapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -503,12 +502,12 @@
       <workItem from="1544688093133" duration="6095000" />
       <workItem from="1544791958862" duration="5673000" />
       <workItem from="1544936278562" duration="13820000" />
-      <workItem from="1544961400525" duration="16917000" />
+      <workItem from="1544961400525" duration="17167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157828000" />
+    <option name="totallyTimeSpent" value="158078000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,9 +520,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.27987897" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.27987897" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.26399395" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -539,7 +537,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.5032787" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7147541" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.7147541" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.8" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
@@ -553,7 +551,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="right" id="Bean Validation" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -949,7 +947,7 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="60" selection-start-column="60" selection-end-column="60" />
+          <caret column="40" selection-start-column="30" selection-end-column="40" />
         </state>
       </provider>
     </entry>
