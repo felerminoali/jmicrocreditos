@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d0cffa0-a62e-4354-a1a5-591b1537a8d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/config/HibernateConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/config/HibernateConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/config/HibernateConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/config/HibernateConf.class" afterDir="false" />
-    </list>
+    <list default="true" id="0d0cffa0-a62e-4354-a1a5-591b1537a8d3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +150,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/config/HibernateConf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="-412">
               <caret line="40" column="102" selection-start-line="40" selection-start-column="102" selection-end-line="40" selection-end-column="102" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -414,7 +407,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545113422193" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545114296751" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../municipioapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -496,12 +489,12 @@
       <workItem from="1544688093133" duration="6095000" />
       <workItem from="1544791958862" duration="5673000" />
       <workItem from="1544936278562" duration="13820000" />
-      <workItem from="1544961400525" duration="15010000" />
+      <workItem from="1544961400525" duration="15920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155921000" />
+    <option name="totallyTimeSpent" value="156831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -514,9 +507,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" weight="0.27987897" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.27987897" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.26399395" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -936,7 +928,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/config/HibernateConf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state relative-caret-position="-412">
           <caret line="40" column="102" selection-start-line="40" selection-start-column="102" selection-end-line="40" selection-end-column="102" />
           <folding>
             <element signature="imports" expanded="true" />
