@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d0cffa0-a62e-4354-a1a5-591b1537a8d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +65,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Procfile" value="1" />
+          <entry key="Procfile" value="2" />
           <entry key="class" value="9" />
           <entry key="css" value="3" />
           <entry key="html" value="14" />
@@ -86,7 +87,7 @@
           <entry key="JSP" value="53" />
           <entry key="JavaScript" value="12" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="17" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="10" />
@@ -420,7 +421,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545114884759" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545115218684" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../municipioapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -439,11 +440,11 @@
       <recent name="com.jmicrocreditos.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\spring-boot-web-jsp" />
       <recent name="C:\Users\user\IdeaProjects\spring-boot-web-jsp\src\main\webapp\WEB-INF\jsp" />
       <recent name="C:\Users\user\IdeaProjects\spring-boot-web-jsp\src\main\webapp\WEB-INF\jsp\html" />
       <recent name="C:\Users\user\IdeaProjects\spring-boot-web-jsp\src\main\resources\static" />
       <recent name="C:\Users\user\IdeaProjects\spring-boot-web-jsp\src\main\java\com\jmicrocreditos\model" />
-      <recent name="C:\Users\user\IdeaProjects\spring-boot-web-jsp\src\main\java\com\jmicrocreditos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -502,12 +503,12 @@
       <workItem from="1544688093133" duration="6095000" />
       <workItem from="1544791958862" duration="5673000" />
       <workItem from="1544936278562" duration="13820000" />
-      <workItem from="1544961400525" duration="16415000" />
+      <workItem from="1544961400525" duration="16917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157326000" />
+    <option name="totallyTimeSpent" value="157828000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -520,8 +521,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" weight="0.27987897" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.27987897" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.26399395" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -537,7 +539,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.5032787" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.7147541" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7147541" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.8" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
