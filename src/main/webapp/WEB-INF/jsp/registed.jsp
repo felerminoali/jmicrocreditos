@@ -27,7 +27,7 @@
 
                 <div class="col-xs-12" style="text-align: center">
 
-                    <p>Obrigado por registrar-se conosco.</p>
+                    <p>Obrigado por registrar-se connosco.</p>
 
                     <p><a href="/" class="btn btn-info btn-block">Voltar a pagina principal</a></p>
                 </div>

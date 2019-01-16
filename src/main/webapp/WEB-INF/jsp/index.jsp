@@ -1,6 +1,7 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+
 <!DOCTYPE html>
 <html >
 <head>
@@ -9,7 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v4.8.8, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/logotipo05-122x148.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/logo-1-234x121.png" type="image/x-icon">
   <meta name="description" content="">
   <title>Home</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
@@ -43,60 +44,58 @@
         <div class="menu-logo">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="index.html">
-                        <img src="assets/images/logotipo05-122x148.png" alt="Mobirise" title="" style="height: 3.8rem;">
+                    <a href="/index">
+                        <img src="assets/images/logo-1-234x121.png" alt="Mobirise" title="" style="height: 3.8rem;">
                     </a>
                 </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="index.html">MICRÓCREDITOS, E.I</a></span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="/index">MICRÓCREDITOS, E.I</a></span>
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
             <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
-                    <a class="nav-link link text-black display-7" href="index.html">HOME</a>
+                    <a class="nav-link link text-primary display-7" href="/index">HOME</a>
                 </li>
-
                 <li class="nav-item">
-                    <a class="nav-link link text-black display-7" href="index.html#features6-18">QUEM SOMOS</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link link text-black dropdown-toggle display-7"
-                                                      href="index.html#testimonials5-10" data-toggle="dropdown-submenu" aria-expanded="false">SERVIÇOS</a><div class="dropdown-menu"><a class="text-black dropdown-item display-7" href="index.html#info1-15">Linhas de Crédito</a>
-                    <a class="text-black dropdown-item display-7" href="index.html#header1-1">Oportunidades</a>
-                    <a class="text-black dropdown-item display-7"
-                                                                                                                                                                                                                                                                                                                                                                                 href="index.html#features18-1o">Requisitos de Crédito</a></div></li><li class="nav-item"><a class="nav-link link text-black display-7" href="index.html#gallery1-1a">EVENTOS</a></li><li class="nav-item"><a class="nav-link link text-black display-7" href="index.html#footer1-b">CONTACTOS</a></li></ul>
-            <div class="navbar-buttons mbr-section-btn">
-                <a class="btn btn-sm btn-primary display-7" href="/login "><span class="mbri-user mbr-iconfont mbr-iconfont-btn">
-            </span>Login</a></div>
+                    <a class="nav-link link text-primary display-7" href="index.jsp#features6-18">QUEM SOMOS</a>
+                </li><li class="nav-item dropdown open"><a class="nav-link link dropdown-toggle text-primary display-7" href="index.jsp#testimonials5-10" data-toggle="dropdown-submenu" aria-expanded="true">SERVIÇOS</a><div class="dropdown-menu"><a class="dropdown-item text-primary display-7" href="index.jsp#info1-15">Linhas de Crédito</a><a class="dropdown-item text-primary display-7" href="index.jsp#header1-1">Oportunidades</a><a class="dropdown-item text-primary display-7" href="index.jsp#features18-1o">Requisitos de Crédito</a></div></li><li class="nav-item"><a class="nav-link link text-primary display-7" href="index.jsp#gallery1-1a">EVENTOS</a></li><li class="nav-item"><a class="nav-link link text-primary display-7" href="index.jsp#footer1-b">CONTACTOS</a></li></ul>
+            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-7" href="/login"><span class="mbri-user mbr-iconfont mbr-iconfont-btn"></span>Login</a></div>
         </div>
     </nav>
 </section>
 
-<section class="engine"><a href="https://">Free HTML5 </a></section><section class="carousel slide cid-rbVtlNA7dJ" data-interval="false" id="slider1-1e">
+<section class="engine"><a href="https://mobirise.info/k">develop free website</a></section><section class="carousel slide cid-rbVtlNA7dJ" data-interval="false" id="slider1-1e">
 
-    <div class="full-screen"><div class="mbr-slider slide carousel" data-pause="true" data-keyboard="false" data-ride="false" data-interval="false"><ol class="carousel-indicators"><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="0"></li><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="2"></li><li data-app-prevent-settings="" data-target="#slider1-1e" class=" active" data-slide-to="3"></li><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="4"></li><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="5"></li></ol><div class="carousel-inner" role="listbox"><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/bg1-2000x1333.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/bg1-2000x1333.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1">MICROCRÉDITOS</h2><p class="lead mbr-text mbr-fonts-style display-5">O sistema de microcrédito é uma linha que concede empréstimos de baixo valor e a taxas menores de juros a pequenos empreendedores, comerciantes e funcionários do estado.</p><div class="mbr-section-btn" buttons="0"><a class="btn display-4 btn-primary" href="index.html#form1-l"><span class="mbri-cash mbr-iconfont mbr-iconfont-btn"></span>Pedir Dinheiro</a> </div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/bguser-2000x1333.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/bguser-2000x1333.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1">Linhas de Créditos</h2><p class="lead mbr-text mbr-fonts-style display-5">Créditos para funcionários, comerciantes, empreendedores e o público em geral.</p><div class="mbr-section-btn" buttons="0"><a class="btn btn-primary display-4" href="index.html#pricing-tables2-v">LER MAIS</a> <a class="btn  btn-white-outline display-4" href="index.html#form1-l">CADASTRAR - SE</a></div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/mbr-1920x1080.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/mbr-1920x1080.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-2">SOLUÇÕES DO NOSSO CRÉDITO</h2><p class="lead mbr-text mbr-fonts-style display-5">Negócios, Investimentos, Consumo, Construção e outros fins.</p><div class="mbr-section-btn" buttons="0"> <a class="btn  display-4 btn-black" href="index.html#features18-1o"><span class="mbri-file mbr-iconfont mbr-iconfont-btn"></span>Ler Mais</a></div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image active" data-bg-video-slide="false" style="background-image: url(assets/images/mbr-6-1920x1280.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/mbr-6-1920x1280.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-2">COMO ADIQUIRIR DINHEIRO</h2><p class="lead mbr-text mbr-fonts-style display-5">Os pedidos de empreestimos são destinados a funcionarios público e ou empresas com comparticipação do estado, pequenas e médias empresas,&nbsp;</p></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/blog-post-1280x720.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/blog-post-1280x720.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-2">NOSSAS SOLUÇÕES E OPORTUNIDADES</h2><p class="lead mbr-text mbr-fonts-style display-5">Oferecemos emprestimos monetários a seu favor, compartilhamos consigo na realização dos seus sonhos e obstaculos da vida.</p><div class="mbr-section-btn" buttons="0"><a class="btn display-4 btn-warning" href="index.html#form1-l"><span class="mbri-cash mbr-iconfont mbr-iconfont-btn"></span>Pedir Dinheiro</a> </div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/blog2-800x450.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/blog2-800x450.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1">Estrangelal Jamal Microcreditos, E.I</h2><p class="lead mbr-text mbr-fonts-style display-5">Somos uma empresa engajada no emprestimo de dinheiro à pessoas singulares e empresas.</p><div class="mbr-section-btn" buttons="0"> <a class="btn  btn-white-outline display-4" href="index.html#header1-1">PEDIR DINHEIRO</a></div></div></div></div></div></div></div><a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#slider1-1e"><span aria-hidden="true" class="mbri-left mbr-iconfont"></span><span class="sr-only">Previous</span></a><a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next" href="#slider1-1e">
-        <span aria-hidden="true" class="mbri-right mbr-iconfont"></span><span class="sr-only">Next</span></a></div></div>
+    
+
+    <div class="full-screen"><div class="mbr-slider slide carousel" data-pause="true" data-keyboard="false" data-ride="false" data-interval="false"><ol class="carousel-indicators"><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="0"></li><li data-app-prevent-settings="" data-target="#slider1-1e" class=" active" data-slide-to="1"></li><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="2"></li><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="3"></li><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="4"></li><li data-app-prevent-settings="" data-target="#slider1-1e" data-slide-to="5"></li></ol><div class="carousel-inner" role="listbox"><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/bg1-2000x1333.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay" style="background-color: rgb(0, 0, 0);"></div><img src="assets/images/bg1-2000x1333.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1">OPERADOR DE MICROCRÉDITOS</h2><p class="lead mbr-text mbr-fonts-style display-5">O sistema de microcrédito é uma linha que concede empréstimos de baixo valor e a taxas menores de juros a pequenos empreendedores, comerciantes e funcionários do estado.</p><div class="mbr-section-btn" buttons="0"><a class="btn display-4 btn-white-outline" href="index.jsp#form1-l"><span class="mbri-cash mbr-iconfont mbr-iconfont-btn"></span>Pedir Dinheiro</a> </div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image active" data-bg-video-slide="false" style="background-image: url(assets/images/bguser-2000x1333.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/bguser-2000x1333.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1">Linhas de Créditos</h2><p class="lead mbr-text mbr-fonts-style display-5">Créditos para funcionários, comerciantes, empreendedores e o público em geral.</p><div class="mbr-section-btn" buttons="0"><a class="btn btn-primary display-4" href="index.jsp#form1-l">PEDIR DINHEIRO</a> <a class="btn  btn-white-outline display-4" href="index.jsp#form1-l">CADASTRAR - SE</a></div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/mbr-1920x1080.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/mbr-1920x1080.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-2">SOLUÇÕES DE APLICAÇÃO DO CRÉDITO</h2><p class="lead mbr-text mbr-fonts-style display-5">Negócios, Investimentos, Consumo, Construção e outros fins.</p><div class="mbr-section-btn" buttons="0"> <a class="btn  display-4 btn-white-outline" href="index.jsp#features18-1o"><span class="mbri-file mbr-iconfont mbr-iconfont-btn"></span>Ler Mais</a></div></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/mbr-2-1920x1280.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/mbr-2-1920x1280.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-2">COMO ADIQUIRIR DINHEIRO</h2><p class="lead mbr-text mbr-fonts-style display-5">Os créditos são destinados à funcionários públicos e ou empresas com comparticipação do estado, pequenas e médias empresas.</p></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/blog-post-1280x720.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/blog-post-1280x720.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-2">NOSSAS SOLUÇÕES E OPORTUNIDADES</h2><p class="lead mbr-text mbr-fonts-style display-5">Oferecemos emprestimos monetários à seu favor para a realização dos seus sonhos.</p></div></div></div></div></div><div class="carousel-item slider-fullscreen-image" data-bg-video-slide="false" style="background-image: url(assets/images/blog2-800x450.jpg);"><div class="container container-slide"><div class="image_wrapper"><div class="mbr-overlay"></div><img src="assets/images/blog2-800x450.jpg"><div class="carousel-caption justify-content-center"><div class="col-10 align-center"><h2 class="mbr-fonts-style display-1">Estrangelal Jamal Microcreditos, E.I</h2><p class="lead mbr-text mbr-fonts-style display-5">Somos uma empresa engajada no emprestimo de dinheiro à pessoas singulares e empresas.</p><div class="mbr-section-btn" buttons="0"> <a class="btn  btn-white-outline display-4" href="index.jsp#header1-1">PEDIR DINHEIRO</a></div></div></div></div></div></div></div><a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#slider1-1e"><span aria-hidden="true" class="mbri-left mbr-iconfont"></span><span class="sr-only">Previous</span></a><a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next" href="#slider1-1e"><span aria-hidden="true" class="mbri-right mbr-iconfont"></span><span class="sr-only">Next</span></a></div></div>
 
 </section>
 
 <section class="mbr-section info2 cid-rbTPvKvefJ" id="info2-16">
 
+    
+
+    
+
     <div class="container">
         <div class="row main justify-content-center">
             <div class="media-container-column col-12 col-lg-3 col-md-4">
-                <div class="mbr-section-btn align-left py-4"><a class="btn btn-secondary-outline display-4" href="index.html#form1-l">PEDIR DINHEIRO</a></div>
+                <div class="mbr-section-btn align-left py-4"><a class="btn btn-secondary-outline display-4" href="index.jsp#form1-l">PEDIR DINHEIRO</a></div>
             </div>
             <div class="media-container-column title col-12 col-lg-7 col-md-6">
                 <h2 class="align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-5">
                     ENTRANGELAL JAMAL MICROCRÉDITOS, E.I</h2>
-                <h3 class="mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style display-4">O microcrédito é caracterizado pela simplicidade e agilidade na análise, aprovação e liberação do dinheiro. Os financiamentos são concedidos pelos grupos especificos.</h3>
+                <h3 class="mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style display-4">O operador de Microcréditos vem suprir a demanda por crédito de pequeno valor, operando com taxas médias, com novas formas de garantia, com sistema de operações simples, com poucos custos, atendendo esta forma, a população menos favorecida.</h3>
             </div>
         </div>
     </div>
 </section>
 
 <section class="features6 cid-rbTPHTtJiw mbr-parallax-background" id="features6-18">
+    
+    
+
+    
     <div class="container">
         <div class="media-container-row">
 
@@ -107,7 +106,7 @@
                 <div class="card-box">
                     <h4 class="card-title py-3 mbr-fonts-style display-7">
                         QUEM SOMOS ?</h4>
-                    <p class="mbr-text mbr-fonts-style display-7">Uma empresa engajada num ambiente apropriado para dar resposta eficiente no sistema de créditos a nivel local.<br><br></p>
+                    <p class="mbr-text mbr-fonts-style display-7">Uma empresa engajada num ambiente apropriado para dar resposta eficiente no sistema de Microcréditos à nivel local.<br><br></p>
                 </div>
             </div>
 
@@ -118,7 +117,7 @@
                 <div class="card-box">
                     <h4 class="card-title py-3 mbr-fonts-style display-7">
                         O QUE FAZEMOS?</h4>
-                    <p class="mbr-text mbr-fonts-style display-7">Emprestamos dinheiro aos funcionarios do estados, pessoas que desejam investir em seus negócios e com necessidades rápidas para adiquirir dinheiro.</p>
+                    <p class="mbr-text mbr-fonts-style display-7">Oferecemos Créditos à funcionarios do estados, pessoas que desejam investir em seus negócios e com necessidades rápidas para adiquirir dinheiro.</p>
                 </div>
             </div>
 
@@ -130,11 +129,16 @@
                     <h4 class="card-title py-3 mbr-fonts-style display-7">
                         PERPECTIVAS E DESAFIOS</h4>
                     <p class="mbr-text mbr-fonts-style display-7">
-                       Tornar o nosso sistema de crédito uma solução electronica na qual os clientes possam aceder os serviços independemente da localização graças as tecnologias.</p>
+                       Tornar o nosso sistema de crédito uma solução electrónica na qual os clientes possam aceder os serviços independemente da localização graças as tecnologias.</p>
                 </div>
             </div>
+
+            
+
         </div>
+
     </div>
+
 </section>
 
 <section class="mbr-section article content11 cid-rbHPwNbUIr" id="content11-6">
@@ -144,8 +148,8 @@
         <div class="media-container-row">
             <div class="mbr-text counter-container col-12 col-md-8 mbr-fonts-style display-7">
                 <ol>
-                    <li><strong>MISSÃO</strong>&nbsp;- Garantir qualidade nos serviços prestados nas variadas linhas de créditos oferecidos pela empresa.</li>
-                    <li><strong>VISÃO</strong>- Ser referêrencia no cumprimento integral e moral na resolução das dificuldades financeiras a todos interessados no sistema de crédito.</li>
+                    <li><strong>MISSÃO</strong>&nbsp;- Fornecer produtos e servços de elavada qualidade e de acordo com a demanda do mercado.</li>
+                    <li><strong>VISÃO</strong>- Ser referêrencia incontornável no fornecimento de produtos e serviços finaceiros a nivel da Província de Cabo Delgado em particular cidade de Pemba.</li>
                     <li><strong>VALORES</strong>- Satisfação total dos clientes, Contribuir para o bem estar social, <strong>QUALIDADE</strong> e <strong>RAPIDEZ</strong>.</li>
                 </ol>
             </div>
@@ -167,13 +171,18 @@
                     PRINCIPAIS LINHAS DE CRÉDITO</h2>
             </div>
             <div class="media-container-column col-12 col-lg-3 col-md-4">
-                <div class="mbr-section-btn align-right py-4"><a class="btn btn-primary display-4" href="index.html#form1-l">CADASTRAR -SE</a></div>
+                <div class="mbr-section-btn align-right py-4"><a class="btn btn-primary display-4" href="/register">CADASTRAR -SE</a></div>
             </div>
         </div>
     </div>
 </section>
 
 <section class="cid-rbHX5k5Mm7" id="pricing-tables2-v">
+
+    
+
+    
+
     <div class="container">
         <div class="media-container-row">
 
@@ -195,7 +204,7 @@
                                 Funcionários do Estado</li><li class="list-group-item">Reformados do Estado</li><li class="list-group-item">Antigos Combatentes</li><li class="list-group-item">Funcionarios das Empresas com participação do Estado</li>
                         </ul>
                     </div>
-                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="index.html#features18-1o" class="btn btn-primary-outline display-4">REQUISITOS</a></div>
+                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="index.jsp#features18-1o" class="btn btn-primary-outline display-4">REQUISITOS</a></div>
                 </div>
             </div>
 
@@ -219,7 +228,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="index.html#features18-1o" class="btn btn-primary-outline display-4">REQUISITOS</a></div>
+                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="index.jsp#features18-1o" class="btn btn-primary-outline display-4">REQUISITOS</a></div>
                 </div>
             </div>
 
@@ -239,10 +248,10 @@
                             <li class="list-group-item"><strong>
                                 GRUPO ALVO</strong></li>
                             <li class="list-group-item">
-                                Todos que se beneficiaram de ceditos desde a sua criação (16 de Agosto de 2017)</li>
+                                Todos que se beneficiaram de creditos desde a sua criação (16 de Agosto de 2017)</li>
                         </ul>
                     </div>
-                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="index.html#features18-1o" class="btn btn-secondary-outline display-4">REQUISTOS</a></div>
+                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="index.jsp#features18-1o" class="btn btn-secondary-outline display-4">REQUISTOS</a></div>
                 </div>
             </div>
 
@@ -262,7 +271,7 @@
                             <li class="list-group-item"><strong>GRUPO ALVO</strong></li><li class="list-group-item">Todos os que possuiem bens móveis (Viatura, motorizada, e outros bens) para penhorar</li>
                         </ul>
                     </div>
-                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="index.html#features18-1o" class="btn btn-secondary-outline display-4">REQUISTOS</a></div>
+                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="index.jsp#features18-1o" class="btn btn-secondary-outline display-4">REQUISTOS</a></div>
                 </div>
             </div>
 
@@ -270,7 +279,7 @@
     </div>
 </section>
 
-<section class="header1 cid-rbHOn5e7Oh mbr-fullscreen mbr-parallax-background" id="header1-1">
+<section class="header1 cid-rbHOn5e7Oh mbr-parallax-background" id="header1-1">
 
     
 
@@ -287,8 +296,8 @@
 <br>•	Os prazos de pagamento são curtos, ligados à finalidade do financiamento e ao fluxo de caixa da actividade empresarial;
 <br>•	O crédito é rápido, pois busca permitir que o cliente aproveite a oportunidade de negócio;
 <br>• As exigências de documentos tesmunhas dependendo do negócio;&nbsp;<br></p>
-                <div class="mbr-section-btn align-center"><a class="btn btn-md btn-danger display-4" href="index.html"><span class="mbri-file mbr-iconfont mbr-iconfont-btn"></span>LER MAIS</a>
-                    <a class="btn btn-md btn-white-outline display-4" href="index.html"><span class="mbri-cash mbr-iconfont mbr-iconfont-btn"></span>EMPRESTIMOS</a></div>
+                <div class="mbr-section-btn align-center"><a class="btn btn-md btn-danger display-4" href="index.jsp"><span class="mbri-file mbr-iconfont mbr-iconfont-btn"></span>LER MAIS</a>
+                    <a class="btn btn-md btn-white-outline display-4" href="index.jsp"><span class="mbri-cash mbr-iconfont mbr-iconfont-btn"></span>EMPRESTIMOS</a></div>
             </div>
         </div>
     </div>
@@ -308,7 +317,7 @@
                 <div class="card-wrapper ">
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
-                        <div class="mbr-section-btn text-center"><a href="index.html#pricing-tables2-v" class="btn btn-primary display-4">Ler Mais</a></div>
+                        <div class="mbr-section-btn text-center"><a href="index.jsp#pricing-tables2-v" class="btn btn-primary display-4">Ler Mais</a></div>
                         <img src="assets/images/mbr-676x452.jpg" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
@@ -325,7 +334,7 @@
                 <div class="card-wrapper">
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
-                        <div class="mbr-section-btn text-center"><a href="index.html#pricing-tables2-v" class="btn btn-primary display-4">Ler Mais</a></div>
+                        <div class="mbr-section-btn text-center"><a href="index.jsp#pricing-tables2-v" class="btn btn-primary display-4">Ler Mais</a></div>
                         <img src="assets/images/mbr-676x451.jpg" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
@@ -342,7 +351,7 @@
                 <div class="card-wrapper">
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
-                        <div class="mbr-section-btn text-center"><a href="index.html#pricing-tables2-v" class="btn btn-primary display-4">Ler Mais</a></div>
+                        <div class="mbr-section-btn text-center"><a href="index.jsp#pricing-tables2-v" class="btn btn-primary display-4">Ler Mais</a></div>
                         <img src="assets/images/mbr-676x450.jpg" alt="Mobirise" title="">
                     </div>
                     <div class="card-box">
@@ -384,10 +393,10 @@
                         <div class="testimonial-photo">
                             <img src="assets/images/rjose-225x227.jpg" alt="" title="">
                         </div>
-                        <p class="mbr-text mbr-fonts-style mbr-white display-7">Descrição Bibliografica</p>
+                        <p class="mbr-text mbr-fonts-style mbr-white display-7">Formado em Psicologia Criminal pelo ISCTAC</p>
                     </div>
                     <div class="card-footer">
-                        <div class="mbr-author-name mbr-bold mbr-fonts-style mbr-white display-7">Jamal , GESTOR GERAL</div>
+                        <div class="mbr-author-name mbr-bold mbr-fonts-style mbr-white display-7">Estrangelal Abubacar Jamal, Gestor&nbsp;</div>
                         
                     </div>
                 </div>
@@ -395,13 +404,12 @@
                 <div class="panel-item">
                     <div class="card-block">
                         <div class="testimonial-photo">
-                            <img src="assets/images/face2.jpg">
+                            <img src="assets/images/mbr-240x160.jpg" alt="" title="">
                         </div>
-                        <p class="mbr-text mbr-fonts-style mbr-white display-7">
-                           DESCRICAO BIBLIOGRAFICA</p>
+                        <p class="mbr-text mbr-fonts-style mbr-white display-7">Formada em Contabilidade pel UCM</p>
                     </div>
                     <div class="card-footer">
-                        <div class="mbr-author-name mbr-bold mbr-fonts-style mbr-white display-7">jAMALITO, ADMINISTRATIVO</div>
+                        <div class="mbr-author-name mbr-bold mbr-fonts-style mbr-white display-7">Ana, Contabilista</div>
                         
                     </div>
                 </div>
@@ -412,10 +420,10 @@
                             <img src="assets/images/img-20160812-143556-edit-240x306.jpg" alt="" title="">
                         </div>
                         <p class="mbr-text mbr-fonts-style mbr-white display-7">
-                           DECRICAO BIBLIOGRAFICA</p>
+                           Formada em Secretariado pelo INEFP</p>
                     </div>
                     <div class="card-footer">
-                        <div class="mbr-author-name mbr-bold mbr-fonts-style mbr-white display-7">sUZANA, sECRETARIA</div>
+                        <div class="mbr-author-name mbr-bold mbr-fonts-style mbr-white display-7">Tandy, Secretaria</div>
                         
                     </div>
                 </div>
@@ -441,7 +449,7 @@
             <div class="media-container-column col-lg-8" data-form-type="formoid">
                     <div data-form-alert="" hidden="">Obrigado pela sua subescrição do formulário</div>
             
-                    <form class="mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="2Lx6suq3+DHAyfKYmwxg2Py/kOZq34KSbo5LpAy98WrXqUCaZxjvxqPuEYIDJ8llbb7xI/8FFxdOYJI/SZ+0MPH5VLdU4f+6ZcqS1m6eS/KkkgOnr/BizeWYGsbFEd/9">
+                    <form class="mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="JZOChxfIQkfPIyWc1BPeMwsiZhhVCRm4aelYMv9XuyKWj+auBUrqSnjgypCCmLzwjHRYR4/VWFRFwV60YBeuvTaxO7tjtbSolEro9oJZ8CLq0LwaGwuGZDq4nqnGatlq">
                         <div class="row row-sm-offset">
                             <div class="col-md-4 multi-horizontal" data-for="name">
                                 <div class="form-group">
@@ -503,7 +511,7 @@
             <div class="media-container-row">
                 <div class="col-12 align-center">
                     <h2 class="mbr-section-title pb-3 mbr-fonts-style display-2">REALIZAÇÕES E PARCEIROS</h2>
-                    <h3 class="mbr-section-subtitle mbr-light mbr-fonts-style display-5">BREVE DESRICAO&nbsp;</h3>
+                    
                 </div>
             </div>
         </div>
@@ -576,7 +584,7 @@
     
 
     <div class="container">
-        <div><!-- Filter --><!-- Gallery --><div class="mbr-gallery-row"><div class="mbr-gallery-layout-default"><div><div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome"><div href="#lb-gallery1-1a" data-slide-to="0" data-toggle="modal"><img src="assets/images/gallery00.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG1</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Responsive"><div href="#lb-gallery1-1a" data-slide-to="1" data-toggle="modal"><img src="assets/images/gallery01.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG2</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Creative"><div href="#lb-gallery1-1a" data-slide-to="2" data-toggle="modal"><img src="assets/images/gallery02.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG3</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1a" data-slide-to="3" data-toggle="modal"><img src="assets/images/gallery03.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG4</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome"><div href="#lb-gallery1-1a" data-slide-to="4" data-toggle="modal"><img src="assets/images/gallery04.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG5</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome"><div href="#lb-gallery1-1a" data-slide-to="5" data-toggle="modal"><img src="assets/images/gallery05.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG6</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Responsive"><div href="#lb-gallery1-1a" data-slide-to="6" data-toggle="modal"><img src="assets/images/gallery06.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG7</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1a" data-slide-to="7" data-toggle="modal"><img src="assets/images/gallery07.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">IMG8</span></div></div></div></div><div class="clearfix"></div></div></div><!-- Lightbox --><div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery1-1a"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><div class="carousel-inner"><div class="carousel-item active"><img src="assets/images/gallery00.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/gallery01.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/gallery02.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/gallery03.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/gallery04.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/gallery05.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/gallery06.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/gallery07.jpg" alt="" title=""></div></div><a class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#lb-gallery1-1a"><span class="mbri-left mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control carousel-control-next" role="button" data-slide="next" href="#lb-gallery1-1a"><span class="mbri-right mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Next</span></a><a class="close" href="#" role="button" data-dismiss="modal"><span class="sr-only">Close</span></a></div></div></div></div></div>
+        <div><!-- Filter --><!-- Gallery --><div class="mbr-gallery-row"><div class="mbr-gallery-layout-default"><div><div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome"><div href="#lb-gallery1-1a" data-slide-to="0" data-toggle="modal"><img src="assets/images/mbr-10-1920x1280-800x533.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-4">APLICAÇÃO DO CRÉDITO PARA REABILITAÇÃO DE IMOVÉIS</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Responsive"><div href="#lb-gallery1-1a" data-slide-to="1" data-toggle="modal"><img src="assets/images/mbr-1920x1271-800x530.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-4">APLICAÇÃO DO CRÉDITO PARA CONSUMO</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1a" data-slide-to="2" data-toggle="modal"><img src="assets/images/mbr-9-1920x1280-800x533.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-4">APLICAÇÃO DO CRÉDITO PARA NEGÓCIO</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome"><div href="#lb-gallery1-1a" data-slide-to="3" data-toggle="modal"><img src="assets/images/mbr-8-1920x1280-800x533.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-4">APLICAÇÃO DO CRÉDITO VIP</span></div></div></div></div><div class="clearfix"></div></div></div><!-- Lightbox --><div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery1-1a"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><div class="carousel-inner"><div class="carousel-item active"><img src="assets/images/mbr-10-1920x1280.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/mbr-1920x1271.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/mbr-9-1920x1280.jpg" alt="" title=""></div><div class="carousel-item"><img src="assets/images/mbr-8-1920x1280.jpg" alt="" title=""></div></div><a class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#lb-gallery1-1a"><span class="mbri-left mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control carousel-control-next" role="button" data-slide="next" href="#lb-gallery1-1a"><span class="mbri-right mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Next</span></a><a class="close" href="#" role="button" data-dismiss="modal"><span class="sr-only">Close</span></a></div></div></div></div></div>
     </div>
 
 </section>
@@ -591,24 +599,24 @@
         <div class="media-container-row content text-white">
             <div class="col-12 col-md-3">
                 <div class="media-wrap">
-                    <a href="index.html">
-                        <img src="assets/images/logotipo05-122x148.png" alt="Mobirise" title="">
+                    <a href="index.jsp">
+                        <img src="assets/images/micro-credito-320x240.png" alt="Mobirise" title="">
                     </a>
                 </div>
             </div>
             <div class="col-12 col-md-3 mbr-fonts-style display-7">
                 <h5 class="pb-3">Endereço</h5>
-                <p class="mbr-text">Cidade de Pemba<br>Via Praia do Wimbe<br>À Direita da SOS</p>
+                <p class="mbr-text">Cidade de Pemba, Entrada S.O.S<br>Bairro Eduardo Mondlane<br>Quarterão nº 19, Rua 026</p>
             </div>
             <div class="col-12 col-md-3 mbr-fonts-style display-7">
                 <h5 class="pb-3">
                     Contactos</h5>
                 <p class="mbr-text">
-                    Email: jamal.jamalito@gmail.com Phone: +258 849018210 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>Caixa Postal: 997652</p>
+                    Email: jamaldinojamal.jj@gmail.com Phone: +258 826876630 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br><br></p>
             </div>
             <div class="col-12 col-md-3 mbr-fonts-style display-7">
-                <h5 class="pb-3">Parceiros</h5>
-                <p class="mbr-text">BANCO DE MOÇAMBIQUE<br>JAMAL<br>OUTROS</p>
+                <h5 class="pb-3">Acreditação</h5>
+                <p class="mbr-text">BAU<br>Banco de Moçambique</p>
             </div>
         </div>
         <div class="footer-lower">
@@ -625,35 +633,27 @@
                 <div class="col-md-6">
                     <div class="social-list align-right">
                         <div class="soc-item">
-                            <a href="https://twitter.com/mobirise" target="_blank">
-                                <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
-                            </a>
+                            
+                                <span class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
+                            
                         </div>
                         <div class="soc-item">
-                            <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
-                                <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
-                            </a>
+                            
+                                <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon"></span>
+                            
                         </div>
                         <div class="soc-item">
-                            <a href="https://www.youtube.com/c/mobirise" target="_blank">
-                                <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
-                            </a>
+                            
+                                <span class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon"></span>
+                            
                         </div>
                         <div class="soc-item">
-                            <a href="https://instagram.com/mobirise" target="_blank">
-                                <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
-                            </a>
+                            
+                                <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
+                            
                         </div>
-                        <div class="soc-item">
-                            <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
-                                <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
-                            </a>
-                        </div>
-                        <div class="soc-item">
-                            <a href="https://www.behance.net/Mobirise" target="_blank">
-                                <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
-                            </a>
-                        </div>
+                        
+                        
                     </div>
                 </div>
             </div>

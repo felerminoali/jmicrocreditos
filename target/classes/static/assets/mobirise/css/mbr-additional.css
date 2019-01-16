@@ -1382,13 +1382,13 @@ body {
   }
 }
 .cid-rbHOkeVLgX .navbar {
-  background: #efefef;
+  background: #ffffff;
   transition: none;
   min-height: 77px;
   padding: .5rem 0;
 }
 .cid-rbHOkeVLgX .navbar-dropdown.bg-color.transparent.opened {
-  background: #efefef;
+  background: #ffffff;
 }
 .cid-rbHOkeVLgX a {
   font-style: normal;
@@ -1476,7 +1476,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rbHOkeVLgX .dropdown .dropdown-menu {
-  background: #efefef;
+  background: #ffffff;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -2166,6 +2166,8 @@ body {
   }
 }
 .cid-rbHOn5e7Oh {
+  padding-top: 45px;
+  padding-bottom: 45px;
   background-image: url("../../../assets/images/background5.jpg");
 }
 .cid-rbHOn5e7Oh P {
@@ -2642,8 +2644,8 @@ body {
   }
 }
 .cid-rbTPP0LGSY {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-rbTPP0LGSY .mbr-slider .carousel-control {

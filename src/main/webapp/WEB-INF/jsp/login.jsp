@@ -1,12 +1,14 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="au theme template">
     <meta name="author" content="Hau Nguyen">
@@ -44,9 +46,7 @@
         <div class="page-content--bge5">
             <div class="container">
 
-
                 <div class="login-wrap">
-
                     <div class="login-content">
 
                         <div class="login-logo">
@@ -81,11 +81,10 @@
                             </form>
                             <div class="register-link">
                                 <p>
-                                    Nao possui Conta
+                                    Nao possui Conta?
                                     <a href="/user/register">Registar - se </a>
 
                                 </p>
-                                <a href="Clients.html">/ Sign In</a>
                             </div>
                         </div>
                     </div>
