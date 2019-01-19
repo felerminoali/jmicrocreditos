@@ -43,7 +43,7 @@ public class HibernateConf {
 //        dataSource.setUsername("znfzlpxnwaveij");
 //        dataSource.setPassword("87b7b46433d0c67ee5613c8c416b0f08948f438b80db80bbc01dfc3fee92b26f");
 
-        dataSource.setUrl("jdbc:postgresql://ec2-75-101-138-165.compute-1.amazonaws.com/jmicrocreditos");
+        dataSource.setUrl("jdbc:postgresql://localhost:5432/jmicrocreditos");
         dataSource.setUsername("postgres");
         dataSource.setPassword("root");
 
