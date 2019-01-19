@@ -1,6 +1,7 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout_login}">
 
 <head>
     <!-- Required meta tags-->
@@ -10,15 +11,12 @@
     <meta name="description" content="au theme template">
     <meta name="author" content="Hau Nguyen">
     <meta name="keywords" content="au theme template">
-
     <!-- Title Page-->
     <title>Login</title>
 
 </head>
-
-
 <body class="animsition">
-
+<th:block layout:fragment="content">
     <div class="page-wrapper">
         <div class="page-content--bge5">
             <div class="container">
@@ -38,8 +36,8 @@
                                     <label>Correio Electronico</label>
                                     <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
 
-                                    <%--<label>Username</label>--%>
-                                    <%--<input class="au-input au-input--full" type="text" name="username" placeholder="Username">--%>
+                                    <label>Username</label>
+                                    <input class="au-input au-input--full" type="text" name="username" placeholder="Username">
                                 </div>
                                 <div class="form-group">
                                     <label>Password</label>
@@ -71,7 +69,7 @@
             </div>
         </div>
     </div>
-
+</th:block>
     <!-- Jquery JS-->
     </body>
 

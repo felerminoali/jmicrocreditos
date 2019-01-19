@@ -21,7 +21,7 @@
 
 
 <body class="animsition">
-<jsp:include page="header.jsp"></jsp:include>
+
     <div class="page-wrapper">
         <div class="page-content--bge5">
             <div class="container">
@@ -74,10 +74,7 @@
             </div>
         </div>
     </div>
-
     <!-- Jquery JS-->
-    <jsp:include page="footer_libs.jsp"></jsp:include>
-
 </body>
 
 </html>

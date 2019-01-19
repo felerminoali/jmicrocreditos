@@ -1,6 +1,7 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout_login}">
 
 <head>
     <!-- Required meta tags-->
@@ -17,6 +18,8 @@
 </head>
 
 <body class="animsition">
+
+<th:block layout:fragment="content">
 <div class="page-wrapper">
     <div class="page-content--bgf7">
         <div class="container">
@@ -55,7 +58,7 @@
 
                             <div class="form-group">
 
-                                <label for="email" class="control-label mb-1">Nr. Documento:</label>
+                                <label for="nr_documento" class="control-label mb-1">Nr. Documento:</label>
                                 <div class="input-group">
                                     <input id="nr_documento" name="nr_documento" type="text" class="form-control cc-cvc"
                                            value=""
@@ -68,46 +71,36 @@
 
                                 <div class="col-6">
                                     <label for="sexo" class="control-label mb-1">Sexo:</label>
-
-                                    <select name="sexo" id="sexo" class="form-control">
-                                        <c:forEach items="${sexo}" var="s">
-                                            <option value="${s.idsexo}">${s.descricao}</option>
-                                        </c:forEach>
+                                    <select name="sexo" id="sexo" class="form-control" th:field="*{sexos}">
+                                        <option th:each="sexo : ${sexos}" th:value="${sexo.idsexo}" th:text="${sexo.descricao}"></option>
                                     </select>
                                 </div>
 
                                 <div class="col-6">
                                     <div class="form-group">
                                         <label for="idestadocivil" class="control-label mb-1">Estado Civil</label>
-                                        <select name="idestadocivil" id="idestadocivil" class="form-control">
-                                            <c:forEach items="${estadocivil}" var="ec">
-                                                <option value="${ec.idestadocivil}">${ec.descricao}</option>
-                                            </c:forEach>
+                                        <select name="idestadocivil" id="idestadocivil" class="form-control" th:field="*{estadocivil}">
+                                            <option th:each="estado : ${estadocivil}" th:value="${estado.idestadocivil}" th:text="${estado.descricao}"></option>
                                         </select>
                                     </div>
                                 </div>
                             </div>
 
-
                             <div class="row">
 
                                 <div class="col-6">
-                                    <label for="contacto1" class="control-label mb-1">Provincia:</label>
+                                    <label for="provincia" class="control-label mb-1">Provincia:</label>
 
-                                    <select name="provincia" id="provincia" class="form-control">
-                                        <c:forEach items="${provincia}" var="prov">
-                                            <option value="${prov.idprovincia}">${prov.descricao}</option>
-                                        </c:forEach>
+                                    <select name="provincia" id="provincia" class="form-control" th:field="*{provincia}">
+                                        <option th:each="prov : ${provincia}" th:value="${prov.idprovincia}" th:text="${prov.descricao}"></option>
                                     </select>
                                 </div>
 
                                 <div class="col-6">
                                     <div class="form-group">
-                                        <label for="contacto2" class="control-label mb-1">Distrito</label>
-                                        <select name="iddistrito" id="iddistrito" class="form-control">
-                                            <c:forEach items="${distrito}" var="distrito">
-                                                <option value="${distrito.ididstrito}">${distrito.descricao}</option>
-                                            </c:forEach>
+                                        <label for="iddistrito" class="control-label mb-1">Distrito</label>
+                                        <select name="iddistrito" id="iddistrito" class="form-control" th:field="*{distrito}">
+                                            <option th:each="distr : ${distrito}" th:value="${distr.ididstrito}" th:text="${distr.descricao}"></option>
                                         </select>
                                     </div>
                                 </div>
@@ -174,7 +167,6 @@
                                            data-val="true"
                                            data-val-required="Inserira o email"
                                            data-val-cc-cvc="Insira email" autocomplete="off">
-
                                 </div>
                             </div>
 
@@ -214,20 +206,16 @@
                                     ?</label>
                                 <div class="input-group">
 
-                                    <select name="tipocredito" id="tipocredito" class="form-control">
-                                        <c:forEach items="${tipocredito}" var="tipocredito">
-                                            <option value="${tipocredito.idcrecredito}">${tipocredito.descricao}</option>
-                                        </c:forEach>
-
+                                    <select name="tipocredito" id="tipocredito" class="form-control" th:field="*{tipocredito}">
+                                        <option th:each="tipocredito : ${tipocredito}" th:value="${tipocredito.idcrecredito}" th:text="${tipocredito.descricao}"></option>
                                     </select>
-
                                 </div>
                             </div>
 
                             <div>
 
                                 <button id="btn_register" type="submit" class="btn btn-lg btn-info btn-block">
-                                    <%--<i class="fa fa-send fa-lg"></i>&nbsp;--%>
+                                   <i class="fa fa-send fa-lg"></i>&nbsp;
                                     <span id="btn_register-amount">Registar</span>
                                     <span id="btn_register-sending" style="display:none;">Sending…</span>
                                 </button>
@@ -249,6 +237,7 @@
     </div>
 
 </div>
+</th:block>
 </body>
 
 </html>
