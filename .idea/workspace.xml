@@ -2,120 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d0cffa0-a62e-4354-a1a5-591b1537a8d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/logo-1-100x52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/logo-1-234x121.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/mbr-10-1920x1280-800x533.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/mbr-10-1920x1280.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/mbr-1920x1271-800x530.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/mbr-1920x1271.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/mbr-240x160.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/mbr-8-1920x1280-800x533.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/mbr-8-1920x1280.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/mbr-9-1920x1280-800x533.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/mbr-9-1920x1280.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/mbr-favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/micro-credito-320x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/micro-credito.-158x118-143x86.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/micro-credito.-158x118.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon/logo-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Modal.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/clients.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/credits.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/payments.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/recoverpass.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/requirments.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/ClientsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/PaymentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/requirementsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/footer_libs.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/head_libs.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/config/HibernateConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/config/HibernateConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/PedirEmprestimoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/CreditosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/images/hashes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/images/hashes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/mobirise/css/mbr-additional.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/mobirise/css/mbr-additional.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/icon/Untitled-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/icon/logo-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon/logo-blue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/icon/logo-mini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/icon/logo-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon/logo-white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/icon/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/CreditosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/CreditosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/dao/CRUDDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/dao/CRUDDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/icon/avatar-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/icon/avatar-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/icon/avatar-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/icon/avatar-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Modal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/modal.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/client.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/client.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/clients.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/clients.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/credits.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/credits.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registed.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registed.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/SpringBootWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/SpringBootWebApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/config/HibernateConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/config/HibernateConf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/config/SecurityConfiguration$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/config/SecurityConfiguration$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/config/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/config/SecurityConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/controller/ClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/controller/ClientController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/controller/PedirEmprestimoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/controller/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/controller/WelcomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/controller/WelcomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/dao/CRUDDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/dao/CRUDDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/dao/CRUDDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/dao/CRUDDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Bem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Bem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Credito.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Credito.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Creditonegocio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Creditonegocio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/CustomUserDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/CustomUserDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Distrito.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Distrito.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Estado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Estado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Estadocivil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Estadocivil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Funcionario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Grupoalvo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Grupoalvo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Historicopagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Historicopagamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/HistoricopagamentoPK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/HistoricopagamentoPK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Instituicao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Instituicao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Juro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Juro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Modopagamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Modopagamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Provincia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Provincia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Sexo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Sexo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Tipocredito.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/Tipocredito.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/repository/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/repository/UsersRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/service/CRUDService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/service/CRUDService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/service/CRUDServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/service/CRUDServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/service/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/service/CustomUserDetailsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/countdown/jquery.countdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/countdown/jquery.countdown.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/dropdown/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/dropdown/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/dropdown/js/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/dropdown/js/script.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/formoid/formoid.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/formoid/formoid.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/gallery/player.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/gallery/player.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/gallery/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/gallery/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/gallery/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/gallery/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/images/hashes.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/images/hashes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/imagesloaded/imagesloaded.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/imagesloaded/imagesloaded.pkgd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/masonry/masonry.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/masonry/masonry.pkgd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/mbr-clients-slider/mbr-clients-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/mbr-clients-slider/mbr-clients-slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/mbr-popup-btns/mbr-popup-btns.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/mbr-popup-btns/mbr-popup-btns.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/mobirise/css/mbr-additional.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/mobirise/css/mbr-additional.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/parallax/jarallax.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/parallax/jarallax.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/popper/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/popper/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/slidervideo/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/slidervideo/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/smoothscroll/smooth-scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/smoothscroll/smooth-scroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/socicon/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/socicon/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/socicon/fonts/socicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/socicon/fonts/socicon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/theme/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/theme/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/theme/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/theme/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/touchswipe/jquery.touch-swipe.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/touchswipe/jquery.touch-swipe.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/vimeoplayer/jquery.mb.vimeo_player.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/vimeoplayer/jquery.mb.vimeo_player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/web/assets/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/web/assets/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/web/assets/mobirise-icons/mobirise-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/web/assets/mobirise-icons/mobirise-icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/web/assets/mobirise-icons/mobirise-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/web/assets/mobirise-icons/mobirise-icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/assets/ytplayer/jquery.mb.ytplayer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/assets/ytplayer/jquery.mb.ytplayer.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/icon/Untitled-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/icon/logo-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/icon/logo-blue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/icon/logo-mini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/icon/logo-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/icon/logo-white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/icon/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/icon/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/payments.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/payments.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/recoverpass.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/recoverpass.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/requirments.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/requirments.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/controller/CreditosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jmicrocreditos/controller/CreditosController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/icon/avatar-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/icon/avatar-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/icon/avatar-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/icon/avatar-06.jpg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -146,53 +61,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/RegisterController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/ClientController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="311">
+              <caret line="268" column="34" selection-start-line="268" selection-start-column="34" selection-end-line="268" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Modal.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/clients.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4250">
+              <caret line="250" column="7" selection-start-line="250" selection-start-column="7" selection-end-line="250" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/payments.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="148" column="34" selection-start-line="148" selection-start-column="34" selection-end-line="148" selection-end-column="34" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="109" column="45" lean-forward="true" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+            <state relative-caret-position="-1512">
+              <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/recoverpass.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registed.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -200,8 +117,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="273" column="51" selection-start-line="273" selection-start-column="51" selection-end-line="273" selection-end-column="51" />
+            <state relative-caret-position="205">
+              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -209,25 +126,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/client.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4831">
-              <caret line="309" lean-forward="true" selection-start-line="309" selection-end-line="309" />
+            <state relative-caret-position="294">
+              <caret line="257" column="38" selection-start-line="257" selection-start-column="38" selection-end-line="257" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/clients.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/config/HibernateConf.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/requirments.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="311">
+              <caret line="309" column="38" selection-start-line="309" selection-start-column="38" selection-end-line="309" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -238,8 +156,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -278,19 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/config/DBConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/config/SecurityWebApplicationInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/ReadMe.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/repository/EntitiesRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pedirEmprestimo.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/repository/Repository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/repository/ProvinciaRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/repository/ModoPagamentoRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Clients.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/repository/SexoRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/service/SexoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/service/EstadoCivilService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/service/impl/EstadoCivilServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/repository/EstadoCivilRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/dao/CRUDDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/config/AppConfig.java" />
@@ -305,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/WelcomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/model/Bem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/model/Tipocredito.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/dao/CRUDDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/service/CRUDServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/model/Cliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/CadastroController.java" />
@@ -316,17 +220,31 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/repository/UsersRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/service/CustomUserDetailsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/config/SecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registed.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/RegisterController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/ClientController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/client.jsp" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/config/HibernateConf.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/head_libs.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/footer_libs.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/client.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/payments.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/recoverpass.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/requirments.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/PaymentsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/requirementsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/CreditosController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/ClientsController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/credits.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/modal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jmicrocreditos/dao/CRUDDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/clients.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/header.jsp" />
       </list>
@@ -351,6 +269,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -389,18 +309,15 @@
               <item name="jmicrocreditos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jmicrocreditos" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jmicrocreditos" type="b2602c69:ProjectViewProjectNode" />
               <item name="jmicrocreditos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jmicrocreditos" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jmicrocreditos" type="b2602c69:ProjectViewProjectNode" />
@@ -430,8 +347,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
@@ -446,14 +361,24 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547653960904" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547897881895" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\spring-boot-web-jsp\src\main\webapp\WEB-INF\jsp\backup" />
+      <recent name="C:\Users\user\IdeaProjects\spring-boot-web-jsp\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\Users\user\IdeaProjects\spring-boot-web-jsp\src\main\resources\static" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.jmicrocreditos.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jmicrocreditos.controller" />
+      <recent name="com.jmicrocreditos.model" />
+      <recent name="com.jmicrocreditos.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Raimundo Jose\jmicrocreditos_v1\jmicrocreditos\src\main\java\com\jmicrocreditos\controller" />
@@ -461,15 +386,6 @@
       <recent name="C:\Users\Raimundo Jose\jmicrocreditos_v1\jmicrocreditos\src\main\webapp\WEB-INF\jsp" />
       <recent name="C:\Users\user\IdeaProjects\spring-boot-web-jsp" />
       <recent name="C:\Users\user\IdeaProjects\spring-boot-web-jsp\src\main\webapp\WEB-INF\jsp" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jmicrocreditos.model" />
-      <recent name="com.jmicrocreditos.config" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\spring-boot-web-jsp\src\main\webapp\WEB-INF\jsp\backup" />
-      <recent name="C:\Users\user\IdeaProjects\spring-boot-web-jsp\src\main\webapp\WEB-INF\jsp" />
-      <recent name="C:\Users\user\IdeaProjects\spring-boot-web-jsp\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -530,12 +446,14 @@
       <workItem from="1544936278562" duration="13820000" />
       <workItem from="1544961400525" duration="19354000" />
       <workItem from="1545454040957" duration="1311000" />
-      <workItem from="1547650986265" duration="2712000" />
+      <workItem from="1547650986265" duration="3833000" />
+      <workItem from="1547783134195" duration="714000" />
+      <workItem from="1547875570518" duration="8812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164288000" />
+    <option name="totallyTimeSpent" value="174935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -548,9 +466,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.23524962" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.27609682" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.26399395" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -559,21 +476,21 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Learn" order="7" weight="0.32980332" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.1122449" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.48129252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.5032787" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.33163264" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.23129252" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.7147541" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Maven" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -581,13 +498,13 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Bean Validation" order="7" visible="true" weight="0.07942511" />
+      <window_info anchor="right" id="Bean Validation" order="7" weight="0.052193645" />
       <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.2753404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.27609682" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.26399395" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -598,85 +515,36 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.6131148" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.20918368" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.5032787" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7147541" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.8" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" visible="true" weight="0.23129252" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.7147541" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289689" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" visible="true" weight="0.052193645" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/model/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/dao/CRUDDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/service/CRUDServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1776">
-          <caret line="127" column="4" lean-forward="true" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/backup/registed.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/model/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="130" column="29" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/backup/Admin.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/backup/MenuUsers.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/backup/Users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1396">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/validar.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main2.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/main.css" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main1.js" />
@@ -709,13 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -753,31 +614,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/html/register.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/backup/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="122" column="72" selection-start-line="122" selection-start-column="59" selection-end-line="122" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registed.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="139" column="34" selection-start-line="139" selection-start-column="34" selection-end-line="139" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -788,22 +628,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/DriverManager.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/87139fea-07d9-4ebe-94c4-a9ee814a6a7a/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/web/assets/jquery/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -828,9 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/CreditosController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -838,45 +661,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/ClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Modal.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/client.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4831">
-          <caret line="309" lean-forward="true" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/clients.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/config/HibernateConf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="425">
           <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -884,24 +671,203 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/footer_libs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/head_libs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/CreditosController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/ClientsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/PaymentsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/requirementsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/modal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/credits.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/dao/CRUDDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jmicrocreditos/dao/CRUDDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="276" column="26" lean-forward="true" selection-start-line="276" selection-start-column="26" selection-end-line="276" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/clients.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4250">
+          <caret line="250" column="7" selection-start-line="250" selection-start-column="7" selection-end-line="250" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/payments.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="148" column="34" selection-start-line="148" selection-start-column="34" selection-end-line="148" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/recoverpass.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registed.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/requirments.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="309" column="38" selection-start-line="309" selection-start-column="38" selection-end-line="309" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="268" column="34" selection-start-line="268" selection-start-column="34" selection-end-line="268" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/client.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="257" column="38" selection-start-line="257" selection-start-column="38" selection-end-line="257" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="109" column="45" lean-forward="true" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+        <state relative-caret-position="-1512">
+          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="273" column="51" selection-start-line="273" selection-start-column="51" selection-end-line="273" selection-end-column="51" />
+        <state relative-caret-position="205">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
         </state>
       </provider>
     </entry>

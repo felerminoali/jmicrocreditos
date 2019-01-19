@@ -8,18 +8,10 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class CreditosController {
 
-//    @PreAuthorize("hasAnyRole('ADMIN')")
-//    @RequestMapping("/emprestar")
-//    public String emprestar(){
-//        return "pedirEmprestimo";
-//    }
-
     @PreAuthorize("hasAnyRole('ADMIN')")
-    @RequestMapping("/emprestar")
+    @RequestMapping("/credits")
     public ModelAndView emprestar(){
-        ModelAndView modelAndView = new ModelAndView("backup/pedirEmprestimo");
-
-
+        ModelAndView modelAndView = new ModelAndView("/credits");
         return modelAndView;
     }
 }

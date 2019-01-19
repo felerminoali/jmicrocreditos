@@ -21,9 +21,7 @@
                 <div class="header3-wrap">
                     
                     <div class="header__logo">
-                        <a href="#">
-                            <img src="/images/icon/logo-white.png" alt="Jamal Microcreditos" />
-                        </a>
+                        <a href="#"> dashbord </a>
                     </div>
 
                     <div class="header__navbar">
@@ -307,6 +305,7 @@
                 
         </div>
         </div>
+      </div>
         <!-- END HEADER MOBILE -->
     </body>
 </html>

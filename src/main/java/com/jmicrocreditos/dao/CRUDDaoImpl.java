@@ -274,15 +274,17 @@ public class CRUDDaoImpl implements CRUDDao {
         query.setFirstResult(f);
         query.setMaxResults(m);
         List<T> returnList = query.list();
-
         return returnList;
     }
 
     @SuppressWarnings("unchecked")
     @Override
+
     public <T> List<T> findByJPQuery(String hql, Map<String, Object> namedParams) {
         Query query = getCurrentSession().createQuery(hql);
+
         if (namedParams != null) {
+
             Entry mapEntry;
             for (Iterator it = namedParams.entrySet().iterator(); it
                     .hasNext(); query.setParameter(
@@ -290,8 +292,8 @@ public class CRUDDaoImpl implements CRUDDao {
                 mapEntry = (Entry) it.next();
             }
         }
-        List<T> returnList = query.list();
 
+        List<T> returnList = query.list();
         return returnList;
     }
 

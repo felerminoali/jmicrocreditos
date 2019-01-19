@@ -10,10 +10,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+
     </head>
     <body>
-       
-        
+    <jsp:include page="head_libs.jsp"></jsp:include>
+
             <!-- modal medium -->
             <div class="modal fade" id="mediumModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
@@ -273,8 +274,6 @@
                                         </form>
                                     </div>
 
-
-
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
                             <button type="button" class="btn btn-primary">Confirm</button>
@@ -284,6 +283,8 @@
                 </div>
 
             <!-- end modal medium -->
+
+            <jsp:include page="footer_libs.jsp"></jsp:include>
         
     </body>
 </html>

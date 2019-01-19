@@ -12,8 +12,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-       
-        
+
+    <jsp:include page="header.jsp"></jsp:include>
             <!-- modal medium -->
             <div class="modal fade" id="mediumModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
