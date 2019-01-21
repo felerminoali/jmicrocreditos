@@ -2015,13 +2015,19 @@ body {
 .cid-rbVtlNA7dJ H2 {
   text-align: center;
 }
-.cid-rbTPvKvefJ {
-  padding-top: 90px;
-  padding-bottom: 30px;
-  background: linear-gradient(45deg, #dbd4b8, #25aab2);
+.cid-rfBtC6oRLK {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-image: url("../../../assets/images/mbr-4-1920x1280.jpg");
 }
-.cid-rbTPvKvefJ .btn {
+.cid-rfBtC6oRLK .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rfBtC6oRLK .btn {
   margin: 0 0 .5rem 0;
+}
+.cid-rfBtC6oRLK H2 {
+  color: #0f7699;
 }
 .cid-rbTPHTtJiw {
   padding-top: 90px;
@@ -2112,7 +2118,7 @@ body {
 .cid-rbHX5k5Mm7 {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #efefef;
+  background-image: url("../../../assets/images/mbr-3-1920x1280.jpg");
 }
 .cid-rbHX5k5Mm7 .list-group-item {
   padding: .75rem 3.25rem;
@@ -2171,6 +2177,9 @@ body {
   background-image: url("../../../assets/images/background5.jpg");
 }
 .cid-rbHOn5e7Oh P {
+  text-align: left;
+}
+.cid-rbHOn5e7Oh H1 {
   text-align: left;
 }
 .cid-rc5gTeI85K {
@@ -2261,65 +2270,6 @@ body {
 }
 .cid-rc5gTeI85K .popup-btn:hover .mbr-section-btn {
   opacity: 1;
-}
-.cid-rbKf7ODmjf {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-image: url("../../../assets/images/mbr-2-1920x1280.jpg");
-}
-.cid-rbKf7ODmjf .media-container-column {
-  align-items: center;
-  -webkit-align-items: center;
-}
-.cid-rbKf7ODmjf .mbr-author-desc {
-  display: block;
-}
-.cid-rbKf7ODmjf .mbr-testimonial {
-  flex-basis: auto;
-  margin-top: 5rem;
-  -webkit-flex-basis: auto;
-}
-.cid-rbKf7ODmjf .mbr-testimonial .panel-item {
-  background-color: #efefef;
-  background: linear-gradient(#efefef, transparent);
-}
-.cid-rbKf7ODmjf .mbr-testimonial .card-block {
-  -webkit-flex-grow: 0;
-  flex-grow: 0;
-  padding: 2rem;
-}
-.cid-rbKf7ODmjf .mbr-testimonial .card-block .testimonial-photo {
-  margin-top: -5rem;
-  display: inline-block;
-  width: 120px;
-  height: 120px;
-  margin-bottom: 1.6rem;
-  overflow: hidden;
-  border-radius: 50%;
-}
-.cid-rbKf7ODmjf .mbr-testimonial .card-block .testimonial-photo img {
-  width: 100%;
-  min-width: 100%;
-  min-height: 100%;
-}
-.cid-rbKf7ODmjf .mbr-testimonial .card-block p {
-  margin: 0;
-}
-.cid-rbKf7ODmjf .mbr-testimonial .card-footer {
-  padding: 0 2rem 2rem 2rem;
-  border-top: 0;
-  word-wrap: break-word;
-  word-break: break-word;
-  background: none;
-}
-@media (max-width: 260px) {
-  .cid-rbKf7ODmjf .testimonial-photo {
-    width: 100% !important;
-    height: auto !important;
-  }
-}
-.cid-rbKf7ODmjf H2 {
-  color: #ffffff;
 }
 .cid-rbHUgGslAd {
   padding-top: 30px;
