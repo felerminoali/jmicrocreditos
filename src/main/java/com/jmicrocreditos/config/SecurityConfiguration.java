@@ -38,12 +38,12 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
 
         http.csrf().disable().authorizeRequests()
-                    .antMatchers("**/emprestar/**").authenticated()
+                    .antMatchers("**/admin/**").authenticated()
                     .anyRequest().permitAll()
                     .and()
                 .formLogin()
                        .loginPage("/login")
-//                        .successForwardUrl("/")
+//                        .successForwardUrl("/admin")
 //                        .defaultSuccessUrl("/")
                         .failureUrl("/login?error=true")
 //                        .usernameParameter("username")

@@ -1,31 +1,16 @@
-<<<<<<< HEAD
-<%-- 
-    Document   : modals
-    Created on : Dec 17, 2018, 12:44:51 AM
-    Author     : Raimundo Jose
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-=======
-<!--
-    Document   : modals
-    Created on : Dec 17, 2018, 12:44:51 AM
-    Author     : Raimundo Jose
--->
->>>>>>> de5e5718240223b936053acfea01243b4c314ee3
 <!DOCTYPE html>
-<html>
+
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout_home}">
+
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Solicitar Crédito</title>
 
     </head>
-    <body>
-<<<<<<< HEAD
-    <jsp:include page="head_libs.jsp"></jsp:include>
-=======
->>>>>>> de5e5718240223b936053acfea01243b4c314ee3
-
+    <body class="animsition">
+    <th:block layout:fragment="content">
             <!-- modal medium -->
             <div class="modal fade" id="mediumModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
@@ -293,12 +278,9 @@
             </div>
                 </div>
 
-            <!-- end modal medium -->
-<<<<<<< HEAD
+    </th:block>
 
-            <jsp:include page="footer_libs.jsp"></jsp:include>
-=======
->>>>>>> de5e5718240223b936053acfea01243b4c314ee3
-        
+
+
     </body>
 </html>
