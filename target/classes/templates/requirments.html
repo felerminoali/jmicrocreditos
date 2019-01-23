@@ -1,11 +1,7 @@
-<!--
-    Document   : modals
-    Created on : Dec 17, 2018, 12:44:51 AM
-    Author     : Raimundo Jose
--->
-
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout_login}">
 
 <head>
     <!-- Required meta tags-->
@@ -16,11 +12,14 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Forget Password</title>
+    <title>Register</title>
 
+    <!-- Fontfaces CSS-->
 </head>
 
 <body class="animsition">
+
+<th:block layout:fragment="content">
     <div class="page-wrapper">
         <div class="page-content--bgf7">
             <div class="container col-xl-12">
@@ -286,22 +285,20 @@
                                         </form>
                                     </div>
 
-                        <div class="modal-footer--">
+                        <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
                             <button type="button" class="btn btn-primary">Confirm</button>
                         </div>
-                
 
             <!-- end modal medium -->
-        
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 
+</th:block>
 </body>
-
 </html>
+
 <!-- end document-->

@@ -1,22 +1,9 @@
-<<<<<<< HEAD:src/main/resources/templates/clients.html
-<%-- 
-    Document   : Clientes
-    Created on : Dec 17, 2018, 9:45:06 AM
-    Author     : Raimundo Jose
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-=======
-<!--
-    Document   : Clientes
-    Created on : Dec 17, 2018, 9:45:06 AM
-    Author     : Raimundo Jose
--->
-
->>>>>>> de5e5718240223b936053acfea01243b4c314ee3:src/main/resources/templates/clients.html
 <!DOCTYPE html>
-<html>
-  <head>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout_master}">
+
+<head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,21 +12,16 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Tables</title>
+    <title>Register</title>
 
-    </head>
+    <!-- Fontfaces CSS-->
+</head>
 
 <body class="animsition">
 
-<<<<<<< HEAD:src/main/resources/templates/clients.html
-<jsp:include page="header.jsp"></jsp:include>
-=======
->>>>>>> de5e5718240223b936053acfea01243b4c314ee3:src/main/resources/templates/clients.html
-    <div class="page-wrapper">
+<th:block layout:fragment="content">
 
-            <!-- END HEADER DESKTOP-->
-            
-            <%@include file="header.jsp" %>
+    <div class="page-wrapper">
 
             <!-- MAIN CONTENT-->
             <div class="main-content">
@@ -260,11 +242,12 @@
 
     </div>
 
-<<<<<<< HEAD:src/main/resources/templates/clients.html
-        <jsp:include page="footer_libs.jsp"></jsp:include>
 
-=======
->>>>>>> de5e5718240223b936053acfea01243b4c314ee3:src/main/resources/templates/clients.html
+
+    <th:replace></th:replace>
+
+</th:block>
+
 </body>
 
 </html>

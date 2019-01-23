@@ -36,7 +36,7 @@ public class RegisterController {
         List<Tipocredito> tipocreditoList = crudService.getAll(Tipocredito.class);
 
         ModelAndView modelAndView = new ModelAndView("/register");
-        modelAndView.addObject("sexos",listSexo);
+        modelAndView.addObject("sexo",listSexo);
         modelAndView.addObject("estadocivil",listEstadoCivil);
         modelAndView.addObject("provincia",provinciaList);
         modelAndView.addObject("distrito",distritoList);
@@ -56,9 +56,9 @@ public class RegisterController {
         String email = (String) request.getParameter("email");
         String sexo = (String) request.getParameter("sexo");
         String idestadocivil = (String) request.getParameter("estadocivil");
-        String iddistrito = (String) request.getParameter("iddistrito");
-        String linhaendereco1 = (String) request.getParameter("linhaendereco1");
-        String linhaendereco2 = (String) request.getParameter("linhaendereco2");
+        String iddistrito = (String) request.getParameter("distrito");
+        String linhaendereco1 = (String) request.getParameter("endereco1");
+        String linhaendereco2 = (String) request.getParameter("endereco2");
         String password = (String) request.getParameter("password");
 
 

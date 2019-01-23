@@ -34,7 +34,11 @@
 
                     </div>
 
+
                     <div class="login-form">
+
+
+
                         <form action="" method="post" novalidate="novalidate">
 
                             <div class="row">
@@ -72,15 +76,15 @@
 
                                 <div class="col-6">
                                     <label for="sexo" class="control-label mb-1">Sexo:</label>
-                                    <select name="sexo" id="sexo" class="form-control" th:field="*{sexos}">
-                                        <option th:each="sexo : ${sexos}" th:value="${sexo.idsexo}" th:text="${sexo.descricao}"></option>
+                                    <select id="sexo" name="sexo" class="form-control">
+                                        <option th:each="s : ${sexo}" th:value="${s.idsexo}" th:text="${s.descricao}"></option>
                                     </select>
                                 </div>
 
                                 <div class="col-6">
                                     <div class="form-group">
-                                        <label for="idestadocivil" class="control-label mb-1">Estado Civil</label>
-                                        <select name="idestadocivil" id="idestadocivil" class="form-control" th:field="*{estadocivil}">
+                                        <label for="estadocivil" class="control-label mb-1">Estado Civil</label>
+                                        <select class="form-control" id="estadocivil" name="estadocivil">
                                             <option th:each="estado : ${estadocivil}" th:value="${estado.idestadocivil}" th:text="${estado.descricao}"></option>
                                         </select>
                                     </div>
@@ -92,15 +96,15 @@
                                 <div class="col-6">
                                     <label for="provincia" class="control-label mb-1">Provincia:</label>
 
-                                    <select name="provincia" id="provincia" class="form-control" th:field="*{provincia}">
+                                    <select class="form-control" id="provincia" name="provincia">
                                         <option th:each="prov : ${provincia}" th:value="${prov.idprovincia}" th:text="${prov.descricao}"></option>
                                     </select>
                                 </div>
 
                                 <div class="col-6">
                                     <div class="form-group">
-                                        <label for="iddistrito" class="control-label mb-1">Distrito</label>
-                                        <select name="iddistrito" id="iddistrito" class="form-control" th:field="*{distrito}">
+                                        <label for="distrito" class="control-label mb-1">Distrito</label>
+                                        <select class="form-control" id="distrito" name="distrito">
                                             <option th:each="distr : ${distrito}" th:value="${distr.ididstrito}" th:text="${distr.descricao}"></option>
                                         </select>
                                     </div>
@@ -207,7 +211,7 @@
                                     ?</label>
                                 <div class="input-group">
 
-                                    <select name="tipocredito" id="tipocredito" class="form-control" th:field="*{tipocredito}">
+                                    <select class="form-control" name="tipocredito" id="tipocredito">
                                         <option th:each="tipocredito : ${tipocredito}" th:value="${tipocredito.idcrecredito}" th:text="${tipocredito.descricao}"></option>
                                     </select>
                                 </div>
@@ -216,7 +220,7 @@
                             <div>
 
                                 <button id="btn_register" type="submit" class="btn btn-lg btn-info btn-block">
-                                   <i class="fa fa-send fa-lg"></i>&nbsp;
+                                 
                                     <span id="btn_register-amount">Registar</span>
                                     <span id="btn_register-sending" style="display:none;">Sending…</span>
                                 </button>
@@ -225,13 +229,16 @@
 
                             <div class="register-link">
                                 <p>
-                                    Já registado?
+                                    Já Esta registado?
                                     <a href="/login">Login</a>
                                 </p>
                             </div>
 
                         </form>
+
+
                     </div>
+
                 </div>
             </div>
         </div>

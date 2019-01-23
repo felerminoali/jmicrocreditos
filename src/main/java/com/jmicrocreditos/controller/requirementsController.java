@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 @RequestMapping("/requirments")
-public class requirementsController {
+public class RequirementsController {
 
     @Autowired
     @Qualifier("CRUDServiceImpl")

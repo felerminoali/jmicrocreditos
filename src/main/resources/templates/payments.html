@@ -1,11 +1,7 @@
-<!--
-    Document   : Amortizacao
-    Created on : Dec 18, 2018, 8:29:39 AM
-    Author     : Raimundo Jose
--->
-
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout_master}">
 
 <head>
     <!-- Required meta tags-->
@@ -16,18 +12,16 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Tables</title>
+    <title>Register</title>
 
+    <!-- Fontfaces CSS-->
 </head>
 
 <body class="animsition">
 
-    <div class="page-wrapper">
+<th:block layout:fragment="content">
 
-            <!-- END HEADER DESKTOP-->
-           
-            <%@include file="header.jsp" %>
-            
+    <div class="page-wrapper">
             <!-- MAIN CONTENT-->
             <div class="main-content">
                 <div class="section__content section__content--p30">
@@ -142,6 +136,7 @@
         </div>
 
     </div>
+</th:block>
 
 </body>
 
