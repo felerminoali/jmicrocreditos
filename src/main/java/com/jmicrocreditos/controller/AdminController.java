@@ -28,21 +28,20 @@ public class AdminController {
     @PreAuthorize("hasRole('ADMIN') or hasRole('STANDARD')")
     @RequestMapping(value = "/payments", method = RequestMethod.GET)
     public ModelAndView payments(){
-//        ModelAndView modelAndView = new ModelAndView("/payments");
-        ModelAndView modelAndView = new ModelAndView("/payments");
+        ModelAndView modelAndView = new ModelAndView("payments");
         return modelAndView;
     }
     @PreAuthorize("hasRole('ADMIN') or hasRole('STANDARD')")
     @RequestMapping(value = "/clients", method = RequestMethod.GET)
     public ModelAndView clients(){
-        ModelAndView modelAndView = new ModelAndView("/clients");
+        ModelAndView modelAndView = new ModelAndView("clients");
         return modelAndView;
     }
 
     @PreAuthorize("hasRole('ADMIN') or hasRole('STANDARD')")
     @RequestMapping(value = "/requirments", method = RequestMethod.GET)
     public ModelAndView requirments(){
-        ModelAndView modelAndView = new ModelAndView("/requirments");
+        ModelAndView modelAndView = new ModelAndView("requirments");
         return modelAndView;
     }
 }
