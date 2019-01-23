@@ -40,7 +40,7 @@
                             </button>
                         </div>
 
-                        <div class="modal-body">
+                        <div class="modal-body" style="padding: 30px 50px">
 
                             <div class="sufee-alert alert with-close alert-success alert-dismissible fade show">
                                 <span class="badge badge-pill badge-success">Success</span>
@@ -229,7 +229,6 @@
                                                     </div>
                                                 </div>
 
-
                                                 <div class="row">
                                                     <div class="col-6">
 
@@ -287,44 +286,6 @@
 </th:block>
     </body>
 
-    <script type="text/javascript">
 
-        $(document).ready(function(){
-
-            $('.funcionario').hide();
-            $('.comerciante').hide();
-            $('.creditoPenhor').hide();
-
-            $('#destino').change(function(){
-                validar_credito($(this).val());
-            });
-
-        });
-
-        function validar_credito(v){
-
-            if(v == 1){
-                $('.funcionario').show();
-                $('.comerciante').hide();
-                $('.creditoPenhor').hide();
-            }
-
-            if(v == 2){
-                $('.comerciante').show();
-                $('.funcionario').hide();
-                $('.creditoPenhor').hide();
-            }
-            if (v == 3){
-                $('.creditoPenhor').show();
-                $('.funcionario').hide();
-                $('.comerciante').hide();
-            }
-
-            $('.modal_credits').click(function () {
-                $('#modal_credits').modal();
-            })
-        }
-
-    </script>
 
 </html>

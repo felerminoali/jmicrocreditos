@@ -130,7 +130,9 @@
                         </ul>
                     </div>
                     <div class="mbr-section-btn text-center py-4 pb-5">
-                        <a href="/credits" class="btn btn-primary-outline display-4 btn1">SOLICITAR</a></div>
+                        <a href="#" data-toggle="modal" data-target="#credits_modal" role="dialog"
+                           class="btn btn-primary-outline display-4 btn1">
+                            SOLICITAR</a></div>
                 </div>
             </div>
 
@@ -154,7 +156,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="/credits" class="btn btn-primary-outline display-4">SOLICITAR</a></div>
+                    <div class="mbr-section-btn text-center py-4 pb-5">
+                        <a href="#" data-toggle="modal" data-target="#credits_modal" role="dialog"
+                           class="btn btn-primary-outline display-4">SOLICITAR</a></div>
                 </div>
             </div>
 
@@ -177,8 +181,8 @@
                                 Todos que se beneficiaram de ceditos desde a sua criação (16 de Agosto de 2017)</li>
                         </ul>
                     </div>
-                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="/credits"
-                                                                          class="btn btn-secondary-outline display-4">SSOLICITAR</a></div>
+                    <div class="mbr-section-btn text-center py-4 pb-5"><a href="#" data-toggle="modal" data-target="#credits_modal" role="dialog"
+                                                                          class="btn btn-secondary-outline display-4">SOLICITAR</a></div>
                 </div>
             </div>
 
@@ -524,7 +528,8 @@
                                 <div class="form-group">
 
                                     <label for="datapag" class="control-label mb-1">Finalidade do Credito</label>
-                                    <select name="destino" id="destino" class="form-control">
+                                    <select name="destino" id="destino" onchange="get_val(this.value)"
+                                            class="form-control">
                                         <option value="0">Please Select</option>
                                         <option value="1">Consumo</option>
                                         <option value="2">Negocio</option>
@@ -711,6 +716,8 @@
             </div>
         </div>
     </div>
+
+    <div th:replace="fragments/modal_credits :: modal"></div>
 
 </th:block>
   
