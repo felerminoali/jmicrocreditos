@@ -6,14 +6,12 @@
 package com.jmicrocreditos.model;
 
 import java.io.Serializable;
-import java.util.List;
 import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.ManyToMany;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.OneToOne;
@@ -21,23 +19,26 @@ import javax.persistence.Table;
 
 /**
  *
- * @author user
+ * @author Raimundo Jose
  */
 @Entity
 @Table(name = "creditonegocio")
 @NamedQueries({
     @NamedQuery(name = "Creditonegocio.findAll", query = "SELECT c FROM Creditonegocio c")})
 public class Creditonegocio implements Serializable {
-
     private static final long serialVersionUID = 1L;
     @Id
     @Basic(optional = false)
     @Column(name = "idcredito")
-    private Integer idcredito;
+    private Short idcredito;
     @Column(name = "testemunha")
-    private Integer testemunha;
-    @ManyToMany(mappedBy = "creditonegocioList", fetch = FetchType.LAZY)
-    private List<Bem> bemList;
+    private String testemunha;
+    @Column(name = "testemunha2")
+    private String testemunha2;
+    @Column(name = "bem")
+    private String bem;
+    @Column(name = "urldeclaracao")
+    private String urldeclaracao;
     @JoinColumn(name = "idcredito", referencedColumnName = "idcredito", insertable = false, updatable = false)
     @OneToOne(optional = false, fetch = FetchType.LAZY)
     private Credito credito;
@@ -45,32 +46,48 @@ public class Creditonegocio implements Serializable {
     public Creditonegocio() {
     }
 
-    public Creditonegocio(Integer idcredito) {
+    public Creditonegocio(Short idcredito) {
         this.idcredito = idcredito;
     }
 
-    public Integer getIdcredito() {
+    public Short getIdcredito() {
         return idcredito;
     }
 
-    public void setIdcredito(Integer idcredito) {
+    public void setIdcredito(Short idcredito) {
         this.idcredito = idcredito;
     }
 
-    public Integer getTestemunha() {
+    public String getTestemunha() {
         return testemunha;
     }
 
-    public void setTestemunha(Integer testemunha) {
+    public void setTestemunha(String testemunha) {
         this.testemunha = testemunha;
     }
 
-    public List<Bem> getBemList() {
-        return bemList;
+    public String getTestemunha2() {
+        return testemunha2;
     }
 
-    public void setBemList(List<Bem> bemList) {
-        this.bemList = bemList;
+    public void setTestemunha2(String testemunha2) {
+        this.testemunha2 = testemunha2;
+    }
+
+    public String getBem() {
+        return bem;
+    }
+
+    public void setBem(String bem) {
+        this.bem = bem;
+    }
+
+    public String getUrldeclaracao() {
+        return urldeclaracao;
+    }
+
+    public void setUrldeclaracao(String urldeclaracao) {
+        this.urldeclaracao = urldeclaracao;
     }
 
     public Credito getCredito() {
@@ -103,7 +120,7 @@ public class Creditonegocio implements Serializable {
 
     @Override
     public String toString() {
-        return "jcreditos.Creditonegocio[ idcredito=" + idcredito + " ]";
+        return "com.jmicrocreditos.model.Creditonegocio[ idcredito=" + idcredito + " ]";
     }
     
 }

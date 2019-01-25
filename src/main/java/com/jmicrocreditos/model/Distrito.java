@@ -24,14 +24,13 @@ import javax.persistence.Table;
 
 /**
  *
- * @author user
+ * @author Raimundo Jose
  */
 @Entity
 @Table(name = "distrito")
 @NamedQueries({
     @NamedQuery(name = "Distrito.findAll", query = "SELECT d FROM Distrito d")})
 public class Distrito implements Serializable {
-
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -123,7 +122,7 @@ public class Distrito implements Serializable {
 
     @Override
     public String toString() {
-        return "jcreditos.Distrito[ ididstrito=" + ididstrito + " ]";
+        return "com.jmicrocreditos.model.Distrito[ ididstrito=" + ididstrito + " ]";
     }
     
 }

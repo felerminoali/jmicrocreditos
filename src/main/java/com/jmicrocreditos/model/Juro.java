@@ -21,14 +21,13 @@ import javax.persistence.Table;
 
 /**
  *
- * @author user
+ * @author Raimundo Jose
  */
 @Entity
 @Table(name = "juro")
 @NamedQueries({
     @NamedQuery(name = "Juro.findAll", query = "SELECT j FROM Juro j")})
 public class Juro implements Serializable {
-
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -111,7 +110,7 @@ public class Juro implements Serializable {
 
     @Override
     public String toString() {
-        return "jcreditos.Juro[ idjuro=" + idjuro + " ]";
+        return "com.jmicrocreditos.model.Juro[ idjuro=" + idjuro + " ]";
     }
     
 }

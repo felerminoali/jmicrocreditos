@@ -24,14 +24,13 @@ import javax.persistence.Table;
 
 /**
  *
- * @author user
+ * @author Raimundo Jose
  */
 @Entity
 @Table(name = "instituicao")
 @NamedQueries({
     @NamedQuery(name = "Instituicao.findAll", query = "SELECT i FROM Instituicao i")})
 public class Instituicao implements Serializable {
-
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -51,6 +50,8 @@ public class Instituicao implements Serializable {
     @JoinColumn(name = "iddistrito", referencedColumnName = "ididstrito")
     @ManyToOne(fetch = FetchType.LAZY)
     private Distrito iddistrito;
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "instituicao", fetch = FetchType.LAZY)
+    private List<Creditoconsumo> creditoconsumoList;
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "idinstituicao", fetch = FetchType.LAZY)
     private List<Funcionario> funcionarioList;
 
@@ -115,6 +116,14 @@ public class Instituicao implements Serializable {
         this.iddistrito = iddistrito;
     }
 
+    public List<Creditoconsumo> getCreditoconsumoList() {
+        return creditoconsumoList;
+    }
+
+    public void setCreditoconsumoList(List<Creditoconsumo> creditoconsumoList) {
+        this.creditoconsumoList = creditoconsumoList;
+    }
+
     public List<Funcionario> getFuncionarioList() {
         return funcionarioList;
     }
@@ -145,7 +154,7 @@ public class Instituicao implements Serializable {
 
     @Override
     public String toString() {
-        return "jcreditos.Instituicao[ idinstituicao=" + idinstituicao + " ]";
+        return "com.jmicrocreditos.model.Instituicao[ idinstituicao=" + idinstituicao + " ]";
     }
     
 }

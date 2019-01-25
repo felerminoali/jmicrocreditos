@@ -15,57 +15,57 @@ import javax.persistence.Embeddable;
  * @author Raimundo Jose
  */
 @Embeddable
-public class HistoricopagamentoPK implements Serializable {
+public class CreditoconsumoPK implements Serializable {
     @Basic(optional = false)
     @Column(name = "idcredito")
-    private int idcredito;
+    private short idcredito;
     @Basic(optional = false)
-    @Column(name = "idmodopagamento")
-    private int idmodopagamento;
+    @Column(name = "idinstituicao")
+    private short idinstituicao;
 
-    public HistoricopagamentoPK() {
+    public CreditoconsumoPK() {
     }
 
-    public HistoricopagamentoPK(int idcredito, int idmodopagamento) {
+    public CreditoconsumoPK(short idcredito, short idinstituicao) {
         this.idcredito = idcredito;
-        this.idmodopagamento = idmodopagamento;
+        this.idinstituicao = idinstituicao;
     }
 
-    public int getIdcredito() {
+    public short getIdcredito() {
         return idcredito;
     }
 
-    public void setIdcredito(int idcredito) {
+    public void setIdcredito(short idcredito) {
         this.idcredito = idcredito;
     }
 
-    public int getIdmodopagamento() {
-        return idmodopagamento;
+    public short getIdinstituicao() {
+        return idinstituicao;
     }
 
-    public void setIdmodopagamento(int idmodopagamento) {
-        this.idmodopagamento = idmodopagamento;
+    public void setIdinstituicao(short idinstituicao) {
+        this.idinstituicao = idinstituicao;
     }
 
     @Override
     public int hashCode() {
         int hash = 0;
         hash += (int) idcredito;
-        hash += (int) idmodopagamento;
+        hash += (int) idinstituicao;
         return hash;
     }
 
     @Override
     public boolean equals(Object object) {
         // TODO: Warning - this method won't work in the case the id fields are not set
-        if (!(object instanceof HistoricopagamentoPK)) {
+        if (!(object instanceof CreditoconsumoPK)) {
             return false;
         }
-        HistoricopagamentoPK other = (HistoricopagamentoPK) object;
+        CreditoconsumoPK other = (CreditoconsumoPK) object;
         if (this.idcredito != other.idcredito) {
             return false;
         }
-        if (this.idmodopagamento != other.idmodopagamento) {
+        if (this.idinstituicao != other.idinstituicao) {
             return false;
         }
         return true;
@@ -73,7 +73,7 @@ public class HistoricopagamentoPK implements Serializable {
 
     @Override
     public String toString() {
-        return "com.jmicrocreditos.model.HistoricopagamentoPK[ idcredito=" + idcredito + ", idmodopagamento=" + idmodopagamento + " ]";
+        return "com.jmicrocreditos.model.CreditoconsumoPK[ idcredito=" + idcredito + ", idinstituicao=" + idinstituicao + " ]";
     }
     
 }

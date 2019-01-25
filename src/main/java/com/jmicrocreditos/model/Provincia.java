@@ -22,14 +22,13 @@ import javax.persistence.Table;
 
 /**
  *
- * @author user
+ * @author Raimundo Jose
  */
 @Entity
 @Table(name = "provincia")
 @NamedQueries({
     @NamedQuery(name = "Provincia.findAll", query = "SELECT p FROM Provincia p")})
 public class Provincia implements Serializable {
-
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -100,7 +99,7 @@ public class Provincia implements Serializable {
 
     @Override
     public String toString() {
-        return "jcreditos.Provincia[ idprovincia=" + idprovincia + " ]";
+        return "com.jmicrocreditos.model.Provincia[ idprovincia=" + idprovincia + " ]";
     }
     
 }

@@ -30,14 +30,13 @@ import javax.persistence.TemporalType;
 
 /**
  *
- * @author user
+ * @author Raimundo Jose
  */
 @Entity
 @Table(name = "credito")
 @NamedQueries({
     @NamedQuery(name = "Credito.findAll", query = "SELECT c FROM Credito c")})
 public class Credito implements Serializable {
-
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -67,6 +66,8 @@ public class Credito implements Serializable {
     private Creditonegocio creditonegocio;
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "credito", fetch = FetchType.LAZY)
     private List<Historicopagamento> historicopagamentoList;
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "credito", fetch = FetchType.LAZY)
+    private List<Creditoconsumo> creditoconsumoList;
     @JoinColumn(name = "idcliente", referencedColumnName = "idcliente")
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     private Cliente idcliente;
@@ -156,6 +157,14 @@ public class Credito implements Serializable {
         this.historicopagamentoList = historicopagamentoList;
     }
 
+    public List<Creditoconsumo> getCreditoconsumoList() {
+        return creditoconsumoList;
+    }
+
+    public void setCreditoconsumoList(List<Creditoconsumo> creditoconsumoList) {
+        this.creditoconsumoList = creditoconsumoList;
+    }
+
     public Cliente getIdcliente() {
         return idcliente;
     }
@@ -202,7 +211,7 @@ public class Credito implements Serializable {
 
     @Override
     public String toString() {
-        return "jcreditos.Credito[ idcredito=" + idcredito + " ]";
+        return "com.jmicrocreditos.model.Credito[ idcredito=" + idcredito + " ]";
     }
     
 }

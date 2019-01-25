@@ -22,14 +22,13 @@ import javax.persistence.TemporalType;
 
 /**
  *
- * @author user
+ * @author Raimundo Jose
  */
 @Entity
 @Table(name = "historicopagamento")
 @NamedQueries({
     @NamedQuery(name = "Historicopagamento.findAll", query = "SELECT h FROM Historicopagamento h")})
 public class Historicopagamento implements Serializable {
-
     private static final long serialVersionUID = 1L;
     @EmbeddedId
     protected HistoricopagamentoPK historicopagamentoPK;
@@ -138,7 +137,7 @@ public class Historicopagamento implements Serializable {
 
     @Override
     public String toString() {
-        return "jcreditos.Historicopagamento[ historicopagamentoPK=" + historicopagamentoPK + " ]";
+        return "com.jmicrocreditos.model.Historicopagamento[ historicopagamentoPK=" + historicopagamentoPK + " ]";
     }
     
 }

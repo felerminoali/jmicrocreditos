@@ -6,26 +6,28 @@
 package com.jmicrocreditos.model;
 
 import java.io.Serializable;
+import java.util.List;
 import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 /**
  *
- * @author user
+ * @author Raimundo Jose
  */
 @Entity
 @Table(name = "sexo")
 @NamedQueries({
     @NamedQuery(name = "Sexo.findAll", query = "SELECT s FROM Sexo s")})
 public class Sexo implements Serializable {
-
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -34,6 +36,8 @@ public class Sexo implements Serializable {
     private Long idsexo;
     @Column(name = "descricao")
     private String descricao;
+    @OneToMany(mappedBy = "idsexo", fetch = FetchType.LAZY)
+    private List<Cliente> clienteList;
 
     public Sexo() {
     }
@@ -58,6 +62,14 @@ public class Sexo implements Serializable {
         this.descricao = descricao;
     }
 
+    public List<Cliente> getClienteList() {
+        return clienteList;
+    }
+
+    public void setClienteList(List<Cliente> clienteList) {
+        this.clienteList = clienteList;
+    }
+
     @Override
     public int hashCode() {
         int hash = 0;
@@ -80,7 +92,7 @@ public class Sexo implements Serializable {
 
     @Override
     public String toString() {
-        return "jcreditos.Sexo[ idsexo=" + idsexo + " ]";
+        return "com.jmicrocreditos.model.Sexo[ idsexo=" + idsexo + " ]";
     }
     
 }

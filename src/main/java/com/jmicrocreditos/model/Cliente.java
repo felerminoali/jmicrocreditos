@@ -23,14 +23,13 @@ import javax.persistence.Table;
 
 /**
  *
- * @author user
+ * @author Raimundo Jose
  */
 @Entity
 @Table(name = "cliente")
 @NamedQueries({
     @NamedQuery(name = "Cliente.findAll", query = "SELECT c FROM Cliente c")})
 public class Cliente implements Serializable {
-
     private static final long serialVersionUID = 1L;
     @Id
     @Basic(optional = false)
@@ -48,17 +47,15 @@ public class Cliente implements Serializable {
     private String contacto1;
     @Column(name = "contacto2")
     private String contacto2;
-
-    @JoinColumn(name = "idsexo", referencedColumnName = "idsexo")
-    @ManyToOne(optional = false, fetch = FetchType.LAZY)
-    private Sexo idsexo;
-
     @JoinColumn(name = "iddistrito", referencedColumnName = "ididstrito")
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     private Distrito iddistrito;
     @JoinColumn(name = "idestadocivil", referencedColumnName = "idestadocivil")
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     private Estadocivil idestadocivil;
+    @JoinColumn(name = "idsexo", referencedColumnName = "idsexo")
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Sexo idsexo;
     @JoinColumn(name = "idcliente", referencedColumnName = "user_id", insertable = false, updatable = false)
     @OneToOne(optional = false, fetch = FetchType.LAZY)
     private User user;
@@ -74,7 +71,7 @@ public class Cliente implements Serializable {
         this.idcliente = idcliente;
     }
 
-    public Cliente(Integer idcliente, String nrBi, String contacto1, String apelido, String nome) {
+    public Cliente(Integer idcliente, String nrBi, String contacto1) {
         this.idcliente = idcliente;
         this.nrBi = nrBi;
         this.contacto1 = contacto1;
@@ -128,14 +125,6 @@ public class Cliente implements Serializable {
         this.contacto2 = contacto2;
     }
 
-    public Sexo getIdsexo() {
-        return idsexo;
-    }
-
-    public void setIdsexo(Sexo idsexo) {
-        this.idsexo = idsexo;
-    }
-
     public Distrito getIddistrito() {
         return iddistrito;
     }
@@ -150,6 +139,14 @@ public class Cliente implements Serializable {
 
     public void setIdestadocivil(Estadocivil idestadocivil) {
         this.idestadocivil = idestadocivil;
+    }
+
+    public Sexo getIdsexo() {
+        return idsexo;
+    }
+
+    public void setIdsexo(Sexo idsexo) {
+        this.idsexo = idsexo;
     }
 
     public User getUser() {
@@ -198,7 +195,7 @@ public class Cliente implements Serializable {
 
     @Override
     public String toString() {
-        return "jcreditos.Cliente[ idcliente=" + idcliente + " ]";
+        return "com.jmicrocreditos.model.Cliente[ idcliente=" + idcliente + " ]";
     }
     
 }

@@ -78,11 +78,7 @@ public class UserController {
 
         crudService.Save(user);
 
-
-
         Cliente cliente = new Cliente();
-
-
         cliente.setNrBi(nr_documento);
         cliente.setContacto1(contacto1);
         cliente.setContacto2(contacto2);

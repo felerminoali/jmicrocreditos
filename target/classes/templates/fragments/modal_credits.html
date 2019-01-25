@@ -6,6 +6,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4"
       layout:decorate="~{layouts/layout_master}">
 
 <head>
@@ -34,249 +35,248 @@
                     <div class="modal-content">
 
                         <div class="modal-header alert alert-warning">
-                            <h3 class="modal-title" id="modal_credits">Solicitar Credito</h3>
+                            <h3 class="modal-title" id="modal_credits">SOLICITAR CRÉDITO</h3>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
 
-                        <div class="modal-body" style="padding: 30px 50px">
+                        <div sec:authorize="hasRole('ADMIN')">
 
-                            <div class="sufee-alert alert with-close alert-success alert-dismissible fade show">
-                                <span class="badge badge-pill badge-success">Success</span>
-                                You successfully inserted
-                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                                   <hr>
+                            <div class="modal-body" style="padding: 30px 50px">
 
+                                <div class="sufee-alert alert with-close alert-success alert-dismissible fade show">
+                                    <span class="badge badge-pill badge-success">Success</span>
+                                    Successfully inserted
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <hr>
 
-                            <form action="" method="post" novalidate="novalidate">
+                                <form action="/credit" method="post" novalidate="novalidate">
 
-                                            <div class="row">
-                                                <div class="col-6">
-
-                                                    <div class="form-group">
-
-                                                        <label for="montante" class="control-label mb-1">Indique o valor</label>
-                                                        <input id="montante" name="montante" type="text" class="form-control" aria-required="true" aria-invalid="false" value="100.00">
-
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-6">
-
-                                                    <div class="form-group">
-
-                                                        <label for="datapag" class="control-label mb-1">Data de Pagamento</label>
-                                                        <input id="datapag" name="datapag" type="date" class="form-control"
-                                                               aria-required="true" aria-invalid="false" value="">
-
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-                                            <div class="row">
-                                                <div class="col-6">
-
-                                                    <div class="form-group">
-
-                                                        <label for="nr_pag" class="control-label mb-1">Numero de Prestacoes</label>
-                                                        <input id="nr_pag" name="nr_pag" type="text" class="form-control"
-                                                               aria-required="true" aria-invalid="false" value="">
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-6">
-
-                                                    <div class="form-group">
-
-                                                        <label for="datapag" class="control-label mb-1">Finalidade do Credito</label>
-                                                        <select name="destino" id="destino" onchange="get_val(this.value)" class="form-control">
-                                                            <option value="0">Please Select</option>
-                                                            <option value="1">Consumo</option>
-                                                            <option value="2">Negocio</option>
-                                                            <option value="3">Outro</option>
-                                                        </select>
-
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-
-                                            <div class="funcionario">
-
-
-                                            <div class="alert alert-secondary" role="alert">Dados do Funcionario</div>
-
-                                            <div class="row">
-                                                <div class="col-6">
-
-                                                    <label for="instituicao" class="control-label mb-1">Instituicao</label>
-                                                    <select name="instituicao" id="instituicao" class="form-control">
-                                                        <option value="0">Please Select</option>
-                                                        <option value="1">INNATER</option>
-                                                        <option value="2">Negocio</option>
-                                                        <option value="2">Outro</option>
-                                                    </select>
-                                                </div>
-
-                                                <div class="col-6">
-
-                                                    <div class="form-group has-success">
-                                                        <label for="funcao" class="control-label mb-1">Funcao</label>
-                                                        <input id="funcao" name="funcao" type="number" class="form-control datapay valid" data-val="true" data-val-required="Please enter the name on card"
-                                                               autocomplete="datapay" aria-required="true" aria-invalid="false" aria-describedby="datapay-error">
-                                                        <span class="help-block field-validation-valid" data-valmsg-for="datapay" data-valmsg-replace="true"></span>
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
+                                    <div class="row">
+                                        <div class="col-6">
 
                                             <div class="form-group">
 
-                                                <label for="contactBoss" class="control-label mb-1">Contacto Gestor</label>
-                                                <input id="contactBoss" name="contactBoss" type="text" class="form-control"
+                                                <label for="montante" class="control-label mb-1">Indique o valor</label>
+                                                <input id="montante" name="montante" type="text" class="form-control" aria-required="true" aria-invalid="false" value="">
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label for="datapag" class="control-label mb-1">Data de Pagamento</label>
+                                                <input id="datapag" name="datapag" type="date" class="form-control"
                                                        aria-required="true" aria-invalid="false" value="">
                                             </div>
-
-                                            <div class="alert alert-secondary" role="alert">Dados Bancarios</div>
-
-
-                                            <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
-                                                <label for="titular">Titular do Conta:</label>
-                                                <input class="form-control" type="text" id="titular" name="titular" value="">
-                                            </div>
-
-
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
-                                                            <label for="nr_conta">Numero da Conta</label>
-
-                                                            <input class="form-control" type="text" id="nr_conta" name="nr_conta" value="">
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
-                                                            <label for="banco">Nome do Banco</label>
-                                                            <input class="form-control" type="text" id="banco" name="banco" value="">
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <h3>Anexar Documentos</h3>
-                                                <hr>
-
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
-                                                            <label for="declaracaoServico">Declaração de Serviço</label>
-                                                            <input class="form-control" type="file" id="declaracaoServico" name="declaracaoServico" value="">
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-6">
-                                                        <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
-                                                            <label for="bi">Fotocopia do B.I</label>
-                                                            <input class="form-control" type="file" id="bi" name="bi" value="">
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-6">
-                                                        <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
-                                                            <label for="banco">Extrato Bancario</label>
-                                                            <input class="form-control" type="file" id="extrato" name="extrato" value="">
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-6">
-                                                        <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
-                                                            <label for="banco">Outro Documento:</label>
-                                                            <input class="form-control" type="file" id="outro" name="outro" value="">
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                </div> <!--  fim div funcionario-->
-
-
-                                            <div class="comerciante">
-
-                                            <div class="alert alert-secondary" role="alert">Dados do Credito - Negocio</div>
-
-
-                                                <div class="row">
-                                                    <div class="col-6">
-
-                                                        <label for="titular">Testemunha 1:</label>
-                                                        <input class="form-control" type="text" id="testemunha1" name="testemunha1" value="">
-                                                    </div>
-                                                    <div class="col-6">
-
-                                                        <label for="nr_conta">Testemunha 2</label>
-                                                        <input class="form-control" type="text" id="testemunha2" name="testemunha2" value="">
-
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-6">
-
-                                                        <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
-                                                            <label for="banco">Bem a Penhorar</label>
-                                                            <input class="form-control" type="text" id="bempenhor" name="bempenhor" value="">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-
-                                                        <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
-                                                            <label for="decbairro">Declarção do Bairro</label>
-                                                            <input class="form-control" type="file" id="decbairro" name="declaracaobairro" value="">
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-
-                                            </div> <!--- fim comerciante -->
-
-                                            <div class="creditoPenhor">
-
-                                                <div class="alert alert-secondary" role="alert">Credito - Pela Penhor</div>
-                                                <div class="row">
-                                                    <div class="col-6">
-
-                                                        <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
-                                                            <label for="banco">Declaração do Imóvel</label>
-                                                            <input class="form-control" type="file" id="dec_imovel" name="dec_imovel" value="">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-6">
-
-                                                        <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
-                                                            <label for="banco">Declarção do Penhor</label>
-                                                            <input class="form-control" type="file" id="declaracobairro" name="declaracaobairro" value="">
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </form>
+                                        </div>
                                     </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                            <button type="button" class="btn btn-primary">Confirm</button>
+
+                                    <div class="row">
+                                        <div class="col-6">
+
+                                            <div class="form-group">
+
+                                                <label for="nr_pag" class="control-label mb-1">Numero de Prestações</label>
+                                                <input id="nr_pag" name="nr_pag" type="text" class="form-control"
+                                                       aria-required="true" aria-invalid="false" value="">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6">
+
+                                            <div class="form-group">
+
+                                                <label for="datapag" class="control-label mb-1">Finalidade do Credito</label>
+                                                <select name="destino" id="destino" onchange="get_val(this.value)" class="form-control">
+                                                    <option value="0">Please Select</option>
+                                                    <option value="1">Consumo</option>
+                                                    <option value="2">Negocio</option>
+                                                    <option value="3">Penhor</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="funcionario">
+                                        <div class="alert alert-secondary" role="alert">Dados do Funcionario</div>
+
+                                        <div class="row">
+                                            <div class="col-6">
+
+                                                <label for="instituicao" class="control-label mb-1">Instituicao</label>
+                                                <select name="instituicao" id="instituicao" class="form-control">
+                                                    <option value="0">Please Select</option>
+                                                    <option value="1">INNATER</option>
+                                                    <option value="2">Negocio</option>
+                                                    <option value="2">Outro</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="col-6">
+
+                                                <div class="form-group has-success">
+                                                    <label for="funcao" class="control-label mb-1">Funcao</label>
+                                                    <input id="funcao" name="funcao" type="number" class="form-control datapay valid" data-val="true" data-val-required="Please enter the name on card"
+                                                           autocomplete="datapay" aria-required="true" aria-invalid="false" aria-describedby="datapay-error">
+                                                    <span class="help-block field-validation-valid" data-valmsg-for="datapay" data-valmsg-replace="true"></span>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-group">
+
+                                            <label for="contactBoss" class="control-label mb-1">Contacto Gestor</label>
+                                            <input id="contactBoss" name="contactBoss" type="text" class="form-control"
+                                                   aria-required="true" aria-invalid="false" value="">
+                                        </div>
+
+                                        <div class="alert alert-secondary" role="alert">Dados Bancarios</div>
+
+
+                                        <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
+                                            <label for="titular">Titular do Conta:</label>
+                                            <input class="form-control" type="text" id="titular" name="titular" value="">
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
+                                                    <label for="nr_conta">Numero da Conta</label>
+
+                                                    <input class="form-control" type="text" id="nr_conta" name="nr_conta" value="">
+                                                </div>
+
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
+                                                    <label for="banco">Nome do Banco</label>
+                                                    <input class="form-control" type="text" id="banco" name="banco" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <h3>Anexar Documentos</h3>
+                                        <hr>
+
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
+                                                    <label for="declaracaoServico">Declaração de Serviço</label>
+                                                    <input class="form-control" type="file" id="declaracaoServico" name="declaracaoServico" value="">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
+                                                    <label for="bi">Fotocopia do B.I</label>
+                                                    <input class="form-control" type="file" id="bi" name="bi" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
+                                                    <label for="banco">Extrato Bancario</label>
+                                                    <input class="form-control" type="file" id="extrato" name="extrato" value="">
+                                                </div>
+
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
+                                                    <label for="banco">Outro Documento:</label>
+                                                    <input class="form-control" type="file" id="outro" name="outro" value="">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div> <!--  fim div funcionario-->
+
+
+                                    <div class="comerciante">
+
+                                        <div class="alert alert-secondary" role="alert">Dados do Credito - Negocio</div>
+
+
+                                        <div class="row">
+                                            <div class="col-6">
+
+                                                <label for="titular">Testemunha 1:</label>
+                                                <input class="form-control" type="text" id="testemunha1" name="testemunha1" value="">
+                                            </div>
+                                            <div class="col-6">
+
+                                                <label for="nr_conta">Testemunha 2</label>
+                                                <input class="form-control" type="text" id="testemunha2" name="testemunha2" value="">
+
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-6">
+
+                                                <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
+                                                    <label for="banco">Bem a Penhorar</label>
+                                                    <input class="form-control" type="text" id="bempenhor" name="bempenhor" value="">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+
+                                                <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
+                                                    <label for="decbairro">Declarção do Bairro</label>
+                                                    <input class="form-control" type="file" id="decbairro" name="declaracaobairro" value="">
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div> <!--- fim comerciante -->
+
+                                    <div class="creditoPenhor">
+
+                                        <div class="alert alert-secondary" role="alert">Credito - Pela Penhor</div>
+                                        <div class="row">
+                                            <div class="col-6">
+
+                                                <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
+                                                    <label for="banco">Declaração do Imóvel</label>
+                                                    <input class="form-control" type="file" id="dec_imovel" name="dec_imovel" value="">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+
+                                                <div class="form-group" data-validate="O Campo Bem por Penhorar é Obrigatório, Insira!">
+                                                    <label for="banco">Declarção do Penhor</label>
+                                                    <input class="form-control" type="file" id="declaracobairro" name="declaracaobairro" value="">
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="reset" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                        <button type="submit" class="btn btn-primary">Confirm</button>
+                                    </div>
+                                </form>
+                            </div>
+
                         </div>
+
+                        <div sec:authorize="isAnonymous()">
+                            <a class="btn btn-success" th:href="@{/login}">Login</a>
+                            <a class="btn btn-primary" th:href="@{/user/register}">Register</a>
+                        </div>
+
 
                 </div>
             </div>
