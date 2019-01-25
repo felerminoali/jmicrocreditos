@@ -67,7 +67,6 @@ public class HibernateConf {
 
         return hibernateProperties;
     }
-
     @Bean
     public CRUDService CRUDService() {
         return new CRUDServiceImpl();
