@@ -2,10 +2,35 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <head>
+    <script>
+
+        function get_val(v){
+
+            alert(v);
+
+            if(v == 1){
+                $('.funcionario').show();
+                $('.comerciante').hide();
+                $('.creditoPenhor').hide();
+            }
+
+            if(v == 2){
+                $('.comerciante').show();
+                $('.funcionario').hide();
+                $('.creditoPenhor').hide();
+            }
+            if (v == 3){
+                $('.creditoPenhor').show();
+                $('.funcionario').hide();
+                $('.comerciante').hide();
+            }
+        }
+
+    </script>
+
 </head>
 <body>
 <div class="page-wrapper" th:fragment="header">
-
     <!-- HEADER DESKTOP-->
     <header class="header-mobile-2 d-none d-lg-block" style="background: #004085">
         <div class="section__content section__content--p35">
@@ -13,7 +38,7 @@
             <div class="header3-wrap">
 
                 <div class="header__logo">
-                    <a href="#"> ADMIN </a>
+                    <a href="#"> ADMINISTRATOR </a>
                 </div>
 
                 <div class="header__navbar">
@@ -34,37 +59,15 @@
 
                         <li class="has-sub">
                             <a href="/payment_clients">
-                                <i class="fas fa-users"></i>CREDITOS
+                                <i class="fas fa-credit-card"></i>CREDITOS
                                 <span class="bot-line"></span>
                             </a>
                         </li>
 
-
-                        <!--<li class="has-sub">-->
-                            <!--<a href="#">-->
-                                <!--<i class="fas fa-credit-card"></i>-->
-                                <!--<span class="bot-line"></span>Creditos</a>-->
-
-                            <!--<ul class="header3-sub-list list-unstyled">-->
-                                <!--<li>-->
-                                    <!--<a href="#">Consumo</a>-->
-                                <!--</li>-->
-                                <!--<li>-->
-                                    <!--<a href="#">Negocio</a>-->
-                                <!--</li>-->
-                                <!--<li>-->
-                                    <!--<a href="#">Pela Penhor</a>-->
-                                <!--</li>-->
-                                <!--<li>-->
-                                    <!--<a href="#">VIP</a>-->
-                                <!--</li>-->
-                            <!--</ul>-->
-                        <!--</li>-->
-
                         <li>
 
                             <a href="/users_account">
-                                <i class="fas fa-object-group"></i>
+                                <i class="fas fa-user"></i>
                                 <span class="bot-line"></span>UTILIZADORES
                             </a>
 
@@ -72,7 +75,7 @@
                         <li>
 
                             <a href="/requirements">
-                                <i class="fas fa-object-group"></i>
+                                <i class="fas fa-"></i>
                                 <span class="bot-line"></span>CONFIGURAÇÕES
                             </a>
 
@@ -85,26 +88,7 @@
                 <div class="header__tool">
                     <div class="header-button-item js-item-menu">
                         <i class="zmdi zmdi-settings"></i>
-                        <div class="setting-dropdown js-dropdown">
-                            <div class="account-dropdown__body">
-                                <div class="account-dropdown__item">
-                                    <a href="configuracao.jsp">
-                                        <i class="zmdi zmdi-account"></i>Cadastro Gerais</a>
-
-                                </div>
-                                <div class="account-dropdown__item">
-                                    <a href="RecoverPassword.html">
-                                        <i class="zmdi zmdi-settings"></i>Bens e Imoveis</a>
-                                </div>
-                            </div>
-                            <div class="account-dropdown__body">
-
-                                <div class="account-dropdown__item">
-                                    <a href="#">
-                                        <i class="zmdi zmdi-notifications"></i>Notificações</a>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="setting-dropdown js-dropdown">Conta</div>
                     </div>
 
 

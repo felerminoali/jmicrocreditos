@@ -105,13 +105,9 @@
             $('.creditoPenhor').hide();
         });
 
-        function get_val(item){
+        function get_val(v){
 
-            alert(item);
-            validar_credito(item)
-        }
-
-        function validar_credito(v){
+            alert(v);
 
             if(v == 1){
                 $('.funcionario').show();
@@ -129,10 +125,6 @@
                 $('.funcionario').hide();
                 $('.comerciante').hide();
             }
-
-            $('.modal_credits').click(function () {
-                $('#modal_credits').modal();
-            })
         }
 
     </script>
