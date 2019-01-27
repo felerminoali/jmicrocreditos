@@ -119,4 +119,12 @@ public class CreditController {
 
         return new ModelAndView("redirect:registed");
     }
+
+    @RequestMapping(value = "/registed")
+    public ModelAndView registed(){
+        ModelAndView modelAndView = new ModelAndView("/registed");
+        modelAndView.addObject("credito", this.credito);
+        return modelAndView;
+    }
+
     }
