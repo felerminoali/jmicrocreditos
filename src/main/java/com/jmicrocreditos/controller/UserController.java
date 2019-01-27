@@ -23,7 +23,6 @@ public class UserController {
     @Autowired
     @Qualifier("CRUDServiceImpl")
     private CRUDService crudService;
-
     private User u;
 
     @RequestMapping(value = "/register", method = RequestMethod.GET)
@@ -41,7 +40,6 @@ public class UserController {
         modelAndView.addObject("provincia",provinciaList);
         modelAndView.addObject("distrito",distritoList);
         modelAndView.addObject("tipocredito",tipocreditoList);
-
         return modelAndView;
     }
 
@@ -61,7 +59,6 @@ public class UserController {
         String linhaendereco2 = (String) request.getParameter("endereco2");
         String password = (String) request.getParameter("password");
 
-
         User user = new User();
         this.u = user;
 
@@ -72,7 +69,6 @@ public class UserController {
         user.setActive(1);
 
         Set<Role> roles = new HashSet<>();
-
         roles.add(crudService.get(Role.class, 2));
         user.setRoles(roles);
 
@@ -90,13 +86,8 @@ public class UserController {
         cliente.setIdcliente(user.getId());
         cliente.setUser(user);
 
-
         crudService.Save(cliente);
-
-
         ModelAndView modelAndView = new ModelAndView("redirect:registed");
-
-
         return modelAndView;
     }
 
@@ -112,7 +103,4 @@ public class UserController {
         ModelAndView modelAndView = new ModelAndView("/standard_user");
         return modelAndView;
     }
-
-
-
 }

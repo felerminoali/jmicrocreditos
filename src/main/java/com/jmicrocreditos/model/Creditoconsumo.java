@@ -67,27 +67,21 @@ public class Creditoconsumo implements Serializable {
     public CreditoconsumoPK getCreditoconsumoPK() {
         return creditoconsumoPK;
     }
-
     public void setCreditoconsumoPK(CreditoconsumoPK creditoconsumoPK) {
         this.creditoconsumoPK = creditoconsumoPK;
     }
-
     public String getFuncao() {
         return funcao;
     }
-
     public void setFuncao(String funcao) {
         this.funcao = funcao;
     }
-
     public String getContactogestor() {
         return contactogestor;
     }
-
     public void setContactogestor(String contactogestor) {
         this.contactogestor = contactogestor;
     }
-
     public String getTitularconta() {
         return titularconta;
     }
