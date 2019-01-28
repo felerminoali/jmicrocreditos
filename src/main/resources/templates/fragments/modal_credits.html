@@ -96,6 +96,8 @@
                                                 <select required="required" name="destino" id="destino" onchange="get_val(this.value)" class="form-control">
                                                     <option value="0">Please Select</option>
                                                     <option value="1">Consumo</option>
+                                                    <option value="2">Negocio</option>
+                                                    <option value="3">Penhor</option>
                                                     <option th:each="i: ${tipocredito}" th:value="${i.idcrecredito}" th:text="${i.descricao}"></option>
                                                 </select>
 
@@ -111,7 +113,11 @@
 
                                                 <label for="instituicao" class="control-label mb-1">Instituição</label>
                                                 <select required="required" name="instituicao" id="instituicao" class="form-control">
-                                                    <option value="1">Please Select</option>
+                                                    <option value="0">Please Select</option>
+                                                    <option value="1">INATER</option>
+                                                    <option value="2">UNILURIO</option>
+                                                    <option value="3">FIPAG</option>
+                                                    <option value="4">EDM</option>
                                                     <option th:each="var : ${instituicao}" th:value="${var.idinstituicao}" th:text="${var.descricao}"></option>
 
                                                 </select>
