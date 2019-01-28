@@ -71,7 +71,7 @@ public class CreditController {
 
             this.credito = new Credito();
             crudService.Save(credito);
-            //return new ModelAndView("redirect:registed");
+            return new ModelAndView("redirect:registed");
 
         } catch (ParseException e) {
             e.printStackTrace();
